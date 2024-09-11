@@ -37,12 +37,12 @@ export function Hero() {
             <br />
             <div className="flex justify-center align-middle space-x-10 lg:space-x-14 md:space-x-10 sm:space-x-10 ">
               <img
-                src="src\assets\images\iiclogo.jpg"
+                src="\assets\images\iiclogo.jpg"
                 className="lg:w-auto sm:w-1/3 w-1/3 md:w-auto"
                 alt=""
               />
               <img
-                src="src\assets\images\switchtechlogo.png"
+                src="\assets\images\switchtechlogo.png"
                 className="lg:w-auto sm:w-1/3 w-1/3 md:w-auto"
                 alt=""
               />

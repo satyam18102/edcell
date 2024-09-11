@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center h-24">
           <div className="flex items-center lg:ml-40">
             <img
-              src="src/assets/images/logo.png"
+              src="/assets/images/logo.png"
               alt="Logo"
               className="h-20 w-auto"
             />
@@ -70,6 +70,7 @@ const Navbar = () => {
             <Link
               to="members"
               smooth={true}
+              target="_top"
               duration={500}
               className="text-white hover:text-gray-300 text-xl cursor-pointer"
               activeClass="text-gray-400" // Add this line

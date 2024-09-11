@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Left Section - Logo and Address */}
           <div className="text-center lg:text-left mb-4 lg:mb-8">
             <img
-              src="/src/assets/images/logo-5.png"
+              src="/assets/images/logo-5.png"
               alt="Logo"
               className="mx-auto lg:mx-0 mb-2 w-[4rem] sm:w-16 lg:w-20"
             />

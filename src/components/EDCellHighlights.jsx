@@ -4,16 +4,16 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 const musicSchoolTestimonials = [
   {
     id: 1,
-    img: "src/assets/images/ed_cell_highlights/card1.png",
+    img: "/assets/images/ed_cell_highlights/card1.png",
   },
-  { id: 2, img: "src/assets/images/ed_cell_highlights/card2.png" },
+  { id: 2, img: "/assets/images/ed_cell_highlights/card2.png" },
   {
     id: 6,
-    img: "src/assets/images/ed_cell_highlights/card3.png",
+    img: "/assets/images/ed_cell_highlights/card3.png",
   },
-  { id: 3, img: "src/assets/images/ed_cell_highlights/card4.png" },
-  { id: 4, img: "src/assets/images/ed_cell_highlights/card5.png" },
-  { id: 5, img: "src/assets/images/ed_cell_highlights/card6.png" },
+  { id: 3, img: "/assets/images/ed_cell_highlights/card4.png" },
+  { id: 4, img: "/assets/images/ed_cell_highlights/card5.png" },
+  { id: 5, img: "/assets/images/ed_cell_highlights/card6.png" },
 ];
 
 const EDCellHighlights = () => {

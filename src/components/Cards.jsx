@@ -6,11 +6,11 @@ function Cards() {
   const courseData = [
     {
       id: 1,
-      image: "/src/assets/images/events/efest5.0.png",
+      image: "/assets/images/events/efest5.0.png",
     },
     {
       id: 2,
-      image: "/src/assets/images/events/inn2.jpg",
+      image: "/assets/images/events/inn2.jpg",
     },
     // {
     //   id: 3,

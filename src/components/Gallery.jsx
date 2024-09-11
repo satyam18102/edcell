@@ -1,21 +1,21 @@
 import React from "react";
 
 const images = [
-  "/src/assets/images/gallery/p1.JPG",
-  "/src/assets/images/gallery/p23.JPG",
-  "/src/assets/images/gallery/p17.JPG",
-  "/src/assets/images/gallery/p27.JPG",
-  "/src/assets/images/gallery/p10.JPG",
-  "/src/assets/images/gallery/p7.JPG",
-  "/src/assets/images/gallery/p12.JPG",
-  "/src/assets/images/gallery/p11.JPG",
-  "/src/assets/images/gallery/p26.JPG",
-  "/src/assets/images/gallery/p15.JPG",
-  "/src/assets/images/gallery/p16.JPG",
-  "/src/assets/images/gallery/p3.JPG",
-  "/src/assets/images/gallery/p9.JPG",
-  "/src/assets/images/gallery/p2.JPG",
-  "/src/assets/images/gallery/p29.JPG",
+  "/assets/images/gallery/p1.JPG",
+  "/assets/images/gallery/p23.JPG",
+  "/assets/images/gallery/p17.JPG",
+  "/assets/images/gallery/p27.JPG",
+  "/assets/images/gallery/p10.JPG",
+  "/assets/images/gallery/p7.JPG",
+  "/assets/images/gallery/p12.JPG",
+  "/assets/images/gallery/p11.JPG",
+  "/assets/images/gallery/p26.JPG",
+  "/assets/images/gallery/p15.JPG",
+  "/assets/images/gallery/p16.JPG",
+  "/assets/images/gallery/p3.JPG",
+  "/assets/images/gallery/p9.JPG",
+  "/assets/images/gallery/p2.JPG",
+  "/assets/images/gallery/p29.JPG",
 ];
 
 const Gallery = () => {
