@@ -40,7 +40,7 @@ const Navbar = () => {
             <img
               src="/assets/images/logo.png"
               alt="Logo"
-              className="h-[60px] md:h-20 w-auto"
+              className="h-16 md:h-20 w-auto"
             />
             <h2 className="text-white text-xl lg:text-3xl lg:ml-2 ml-1 font-bold">
               Entrepreneurship<br></br> Development Cell
