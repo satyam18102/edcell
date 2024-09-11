@@ -42,7 +42,7 @@ const Navbar = () => {
               alt="Logo"
               className="h-20 w-auto"
             />
-            <h2 className="text-white text-2xl lg:text-3xl lg:ml-2 ml-1 font-bold">
+            <h2 className="text-white text-xl lg:text-3xl lg:ml-2 ml-1 font-bold">
               Entrepreneurship<br></br> Development Cell
             </h2>
             
