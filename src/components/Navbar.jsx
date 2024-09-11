@@ -104,7 +104,7 @@ const Navbar = () => {
               Gallery
             </Link>
           </div>
-          <div className="md:hidden ml-4">
+          <div className="md:hidden ml-10">
             <button
               type="button"
               className="text-white hover:text-gray-300 focus:outline-none"
