@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.border-gradient {
+  border-image: linear-gradient(135deg, #1d1d4e, #3b0d91, #8e44ad) 1;
+}
+.gallery{
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  padding-top: 10px;
+  font-style: normal;
+  text-align: center;
+  color:white;
+  /* background-color: black; */
+}
