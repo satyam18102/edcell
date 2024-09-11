@@ -1,3 +1,4 @@
+import React from "react";
 export default function E_Fest5() {
     return (
         <div className="bg-black min-h-[100vh] p-10 md:pl-16 flex flex-col gap-2">
