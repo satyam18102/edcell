@@ -104,7 +104,7 @@ const Navbar = () => {
               Gallery
             </Link>
           </div>
-          <div className="md:hidden ml-10">
+          <div className="md:hidden ml-16">
             <button
               type="button"
               className="text-white hover:text-gray-300 focus:outline-none"
@@ -114,7 +114,7 @@ const Navbar = () => {
               }}
             >
               <svg
-                className="h-8 w-8"
+                className="h-10 w-10"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
