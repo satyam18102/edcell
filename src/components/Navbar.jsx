@@ -36,13 +36,13 @@ const Navbar = () => {
     >
       <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center h-24">
-          <div className="flex items-center lg:ml-40">
+          <div className="flex items-center lg:ml-32">
             <img
               src="/assets/images/logo.png"
               alt="Logo"
               className="h-20 w-auto"
             />
-            <h2 className="text-white text-2xl lg:text-3xl lg:ml-2 ml-4 font-bold">
+            <h2 className="text-white text-2xl lg:text-3xl lg:ml-2 ml-1 font-bold">
               Entrepreneurship<br></br> Development Cell
             </h2>
             
