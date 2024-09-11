@@ -70,7 +70,6 @@ const Navbar = () => {
             <Link
               to="members"
               smooth={true}
-              target="_top"
               duration={500}
               className="text-white hover:text-gray-300 text-xl cursor-pointer"
               activeClass="text-gray-400" // Add this line
