@@ -155,7 +155,7 @@ const Navbar = () => {
               Event
             </ScrollLink>
             <ScrollLink
-              to="member"
+              to="members"
               smooth={true}
               duration={500}
               className="block text-white hover:text-gray-300 text-lg cursor-pointer"
