@@ -43,17 +43,13 @@ function App() {
           <Route
             path="/1"
             element={
-              <>
                 <EFest5 />
-              </>
             }
           />
           <Route
             path="/2"
             element={
-              <>
                 <Innovation_Challenge />
-              </>
             }
           />
           <Route
