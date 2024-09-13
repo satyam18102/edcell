@@ -133,7 +133,7 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden h-full bg-gray-900 bg-opacity-70 backdrop-blur-md">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="px-4 pt-4 pb-6 space-y-4 text-center">
             <ScrollLink
               to="home"
               smooth={true}

@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaFacebookF,
-  FaTwitter,
   FaLinkedinIn,
   FaInstagram,
   FaYoutube,
@@ -29,38 +28,41 @@ const Footer = () => {
 
           {/* Center Section - Contact Details and Social Media */}
           <div className="text-center mb-4 lg:mb-0">
-            <p className="mb-2 text-sm lg:text-lg font-semibold">
-              Phone: 9937289499 / 7381499499
-            </p>
-            <p className="mb-4 text-sm lg:text-lg font-semibold">
-              Email: info@silicon.ac.in
-            </p>
-            <div className="flex justify-center space-x-4 sm:space-x-6 text-sm lg:text-lg">
-              <a href="#" className="hover:text-gray-300">
+              <p className="mb-4 text-2xl lg:text-3xl font-bold">
+                Follow Us
+              </p>
+            <div className="flex justify-center space-x-8 text-2xl lg:text-2xl">
+              <a
+                href="https://www.facebook.com/edcell.silicon?mibextid=qi2Omg&rdid=KykV0M2JNhYzdfjM&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fm1xFfobBGSQdj7z1%2F%3Fmibextid%3Dqi2Omg"
+                className="hover:text-gray-300"
+              >
                 <FaFacebookF />
               </a>
-              <a href="#" className="hover:text-gray-300">
-                <FaYoutube />
-              </a>
-              <a href="#" className="hover:text-gray-300">
+              <a
+                href="https://www.linkedin.com/company/entrepreneurshipdevelopmentcellsitbbsr/"
+                className="hover:text-gray-300"
+              >
                 <FaLinkedinIn />
               </a>
-              <a href="#" className="hover:text-gray-300">
+              <a
+                href="https://www.instagram.com/sit.edcell?igsh=cmpzcWdnOWc5ZWYz"
+                className="hover:text-gray-300"
+              >
                 <FaInstagram />
               </a>
             </div>
           </div>
 
           {/* Right Section - Copyright and Additional Info */}
-          <div className="text-center lg:text-right">
-            <p className="mb-1 text-sm lg:text-lg font-semibold">
-              Formerly known as
+          <div className="text-center lg:text-left mt-8">
+            <p className="mb-2 text-2xl lg:text-3xl font-bold">
+              Contact Us
             </p>
-            <p className="font-bold mb-2 text-sm lg:text-lg">
-              Silicon Institute of Technology
+            <p className="mb-2 text-sm lg:text-lg font-semibold">
+              Phone: 9937289499 / 7381499499
             </p>
-            <p className="text-xs lg:text-lg font-semibold mt-2">
-              &copy; All rights reserved.
+            <p className="mb-4 text-sm lg:text-lg font-semibold">
+              Email: edcell@silicon.ac.in
             </p>
           </div>
         </div>
