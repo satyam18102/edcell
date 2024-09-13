@@ -57,6 +57,7 @@ let members = [
 ]
 
 export default function Members() {
+    window.scrollTo(0,0)
     return (
         <>
             <div className="flex justify-center items-center mt-5 ">

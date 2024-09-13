@@ -44,6 +44,7 @@ function App() {
                 }
               />
 
+<<<<<<< HEAD
               <Route
                 path="/gallery"
                 element={
@@ -81,6 +82,39 @@ function App() {
         </Router>
       )}
     </>
+=======
+          <Route
+            path="/gallery"
+            element={
+              <>
+                <Gallery />
+              </>
+            }
+          />
+          <Route
+            path="/1"
+            element={
+                <EFest5 />
+            }
+          />
+          <Route
+            path="/2"
+            element={
+                <Innovation_Challenge />
+            }
+          />
+          <Route
+            path="/members"
+            element={
+              <>
+                <Members />
+              </>
+            }
+          />
+        </Routes>
+      </div>
+    </Router>
+>>>>>>> b9216098ff83ef82134ca48e5c4428de5270be13
   );
 }
 

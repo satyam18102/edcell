@@ -34,15 +34,15 @@ const Navbar = () => {
     <nav
       className={`fixed w-full z-30 top-0 transition-colors ${getNavbarBgClass()}`}
     >
-      <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center h-24">
-          <div className="flex items-center lg:ml-40">
+      <div className="max-w-9xl mx-auto px-4 lg:px-8">
+        <div className="flex items-center gap-3 h-24">
+          <div className="flex items-center lg:ml-32">
             <img
               src="/assets/images/logo.png"
               alt="Logo"
-              className="h-20 w-auto"
+              className="h-16 md:h-20 w-auto"
             />
-            <h2 className="text-white text-2xl lg:text-3xl lg:ml-2 ml-4 font-bold">
+            <h2 className="text-white text-xl lg:text-3xl lg:ml-2 ml-1 font-bold">
               Entrepreneurship<br></br> Development Cell
             </h2>
             
@@ -70,7 +70,6 @@ const Navbar = () => {
             <Link
               to="members"
               smooth={true}
-              target="_top"
               duration={500}
               className="text-white hover:text-gray-300 text-xl cursor-pointer"
               activeClass="text-gray-400" // Add this line
@@ -105,7 +104,7 @@ const Navbar = () => {
               Gallery
             </Link>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden ml-12">
             <button
               type="button"
               className="text-white hover:text-gray-300 focus:outline-none"
@@ -115,7 +114,7 @@ const Navbar = () => {
               }}
             >
               <svg
-                className="h-8 w-8"
+                className="h-10 w-10"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -155,8 +154,8 @@ const Navbar = () => {
             >
               Event
             </ScrollLink>
-            <ScrollLink
-              to="member"
+            <Link
+              to="members"
               smooth={true}
               duration={500}
               className="block text-white hover:text-gray-300 text-lg cursor-pointer"
@@ -164,7 +163,7 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Member
-            </ScrollLink>
+            </Link>
             <ScrollLink
               to="Incubatees"
               smooth={true}
@@ -176,7 +175,7 @@ const Navbar = () => {
               Incubatees
             </ScrollLink>
             <ScrollLink
-              to="footer"
+              to="edcellhighlights"
               smooth={true}
               duration={500}
               className="block text-white hover:text-gray-300 text-lg cursor-pointer"

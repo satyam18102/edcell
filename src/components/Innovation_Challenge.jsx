@@ -1,11 +1,13 @@
 import { useEffect } from "react"
 import { useState } from "react"
+import React from "react";
 export default function Innovation_Challenge() {
     const [number, changeNumber] = useState(1)
     const [photo, changePhoto] = useState("ic_photos/1.JPG")
     useEffect(() => {
         changePhoto("ic_photos/" + number + ".JPG")
     }, [number])
+     window.scrollTo(0,0)
     return (
         <div className="bg-black min-h-[100vh] p-6 md:p-10 md:pl-16 flex flex-col gap-2">
             <div className="flex items-center gap-3 flex-wrap max-w-svw">

@@ -1,4 +1,7 @@
+import React from "react";
+import {useEffect} from "react"
 export default function E_Fest5() {
+    window.scrollTo(0,0)
     return (
         <div className="bg-black min-h-[100vh] p-10 md:pl-16 flex flex-col gap-2">
             <div className="" >
