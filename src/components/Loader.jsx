@@ -1,4 +1,3 @@
-
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "../Animation - 1726065806626.json"; // Adjust path accordingly
@@ -19,6 +18,5 @@ const Loader = () => {
     </div>
   );
 };
-
 
 export default Loader;

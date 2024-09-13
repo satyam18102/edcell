@@ -31,7 +31,6 @@ const Footer = () => {
               <p className="mb-4 text-2xl lg:text-3xl font-bold">
                 Follow Us
               </p>
-            
             <div className="flex justify-center space-x-8 text-2xl lg:text-2xl">
               <a
                 href="https://www.facebook.com/edcell.silicon?mibextid=qi2Omg&rdid=KykV0M2JNhYzdfjM&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fm1xFfobBGSQdj7z1%2F%3Fmibextid%3Dqi2Omg"
@@ -43,14 +42,12 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/entrepreneurshipdevelopmentcellsitbbsr/"
                 className="hover:text-gray-300"
               >
-             
                 <FaLinkedinIn />
               </a>
               <a
                 href="https://www.instagram.com/sit.edcell?igsh=cmpzcWdnOWc5ZWYz"
                 className="hover:text-gray-300"
               >
-             
                 <FaInstagram />
               </a>
             </div>
