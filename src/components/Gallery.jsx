@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const images = [
@@ -49,3 +50,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
