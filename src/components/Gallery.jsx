@@ -2,21 +2,21 @@
 import React from "react";
 
 const images = [
-  "/assets/images/gallery/p1.JPG",
-  "/assets/images/gallery/p23.JPG",
-  "/assets/images/gallery/p17.JPG",
-  "/assets/images/gallery/p27.JPG",
-  "/assets/images/gallery/p10.JPG",
-  "/assets/images/gallery/p7.JPG",
-  "/assets/images/gallery/p12.JPG",
-  "/assets/images/gallery/p11.JPG",
-  "/assets/images/gallery/p26.JPG",
-  "/assets/images/gallery/p15.JPG",
-  "/assets/images/gallery/p16.JPG",
-  "/assets/images/gallery/p3.JPG",
-  "/assets/images/gallery/p9.JPG",
-  "/assets/images/gallery/p2.JPG",
-  "/assets/images/gallery/p29.JPG",
+  "/assets/images/gallery/p1.jpg",
+  "/assets/images/gallery/p23.jpg",
+  "/assets/images/gallery/p17.jpg",
+  "/assets/images/gallery/p27.jpg",
+  "/assets/images/gallery/p10.jpg",
+  "/assets/images/gallery/p7.jpg",
+  "/assets/images/gallery/p12.jpg",
+  "/assets/images/gallery/p11.jpg",
+  "/assets/images/gallery/p26.jpg",
+  "/assets/images/gallery/p15.jpg",
+  "/assets/images/gallery/p16.jpg",
+  "/assets/images/gallery/p3.jpg",
+  "/assets/images/gallery/p9.jpg",
+  "/assets/images/gallery/p2.jpg",
+  "/assets/images/gallery/p29.jpg",
 ];
 
 const Gallery = () => {
