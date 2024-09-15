@@ -36,7 +36,7 @@ const Navbar = () => {
       className={`fixed w-full z-30 top-0 transition-colors ${getNavbarBgClass()}`}
     >
       <div className="w-full mx-auto px-4">
-        <div className="flex items-center gap-3 h-24 justify-space-around">
+        <div className="flex items-center gap-3 h-24 justify-around">
           <div className="flex items-center">
             <img
               src="/assets/images/logo.png"
