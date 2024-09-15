@@ -49,7 +49,7 @@ const Navbar = () => {
             
           </div>
 
-          <div className="hidden md:flex mx-auto space-x-6">
+          <div className="hidden md:flex mx-auto">
             <ScrollLink
               to="home"
               smooth={true}
