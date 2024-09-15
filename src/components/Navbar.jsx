@@ -35,7 +35,7 @@ const Navbar = () => {
     <nav
       className={`fixed w-full z-30 top-0 transition-colors ${getNavbarBgClass()}`}
     >
-      <div className="max-w-9xl mx-auto px-4 lg:px-8">
+      <div className="w-full mx-auto px-4 lg:px-8">
         <div className="flex items-center gap-3 h-24">
           <div className="flex items-center lg:ml-32">
             <img
