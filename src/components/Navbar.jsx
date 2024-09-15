@@ -37,7 +37,7 @@ const Navbar = () => {
     >
       <div className="w-full mx-auto px-4 lg:px-8">
         <div className="flex items-center gap-3 h-24">
-          <div className="flex items-center lg:ml-16">
+          <div className="flex items-center">
             <img
               src="/assets/images/logo.png"
               alt="Logo"
