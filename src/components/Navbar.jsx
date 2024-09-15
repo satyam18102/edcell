@@ -49,7 +49,7 @@ const Navbar = () => {
             
           </div>
 
-          <div className="hidden md:flex mx-auto">
+          <div className="hidden md:flex mx-auto space-x-6">
             <ScrollLink
               to="home"
               smooth={true}
@@ -105,7 +105,7 @@ const Navbar = () => {
               Gallery
             </Link>
           </div>
-          <div className="md:hidden ml-12">
+          <div className="md:none ml-12">
             <button
               type="button"
               className="text-white hover:text-gray-300 focus:outline-none"
