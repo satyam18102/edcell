@@ -37,7 +37,7 @@ const Navbar = () => {
     >
       <div className="w-full mx-auto px-4">
         <div className="flex items-center gap-3 h-24">
-          <div className="flex items-center">
+          <div className="flex items-center justify-space-evenly">
             <img
               src="/assets/images/logo.png"
               alt="Logo"
