@@ -25,7 +25,7 @@ export default function Innovation_Challenge() {
                 </div>
                 <div className="flex justify-evenly items-center md:w-1/2">
                     <img src="event_photos/left-chevron.png" className="h-8 w-8 md:h-10 md:w-10" onClick={() => { changeNumber(number - 1 || 8) }}></img>
-                    <img src={photo} className="rounded-lg w-[260px] md:w-[400px] delay-600"></img>
+                    <img src={photo} className="rounded-lg w-[260px] md:w-[400px] delay-100"></img>
                     <img src="event_photos/left-chevron.png" className="h-8 w-8 md:h-10 md:w-10 rotate-180" onClick={() => { changeNumber((number + 1) % 9 || 1) }}></img>
                 </div>
             </div> 
