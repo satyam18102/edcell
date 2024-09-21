@@ -42,10 +42,10 @@ function App() {
                     <Footer />
                   </>
                 }
-              />
+              >
 
           <Route
-            path="/gallery"
+            path="gallery"
             element={
               <>
                 <Gallery />
@@ -53,27 +53,28 @@ function App() {
             }
           />
           <Route
-            path="/1"
+            path="1"
             element={
                 <EFest5 />
             }
           />
           <Route
-            path="/2"
+            path="2"
             element={
                 <Innovation_Challenge />
             }
           />
           <Route
-            path="/members"
+            path="members"
             element={
               <>
                 <Members />
               </>
             }
           />
+                
                <Route
-                path="*"
+                path=""
                 element={
                   <>
                     <Navbar />
@@ -86,6 +87,7 @@ function App() {
                   </>
                 }
               />
+                </Route>
         </Routes>
       </div>
     </Router>)}
