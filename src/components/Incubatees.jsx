@@ -35,7 +35,7 @@ const Incubatees = () => {
               </a>
             </div>
           </div>
-          {index < items.length - 1 && (
+          {index < items.length && (
             <hr className="border-t border-[#00ccb1] mt-4 lg:mt-8" />
           )}
         </div>
