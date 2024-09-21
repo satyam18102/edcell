@@ -69,7 +69,7 @@ const Navbar = () => {
               Events
             </ScrollLink>
             <Link
-              to="members"
+              to="/members"
               smooth={true}
               duration={500}
               className="text-white hover:text-gray-300 text-xl cursor-pointer"
