@@ -52,7 +52,7 @@ export default function E_Fest5() {
                         <h1 className="text-white text-3xl font-bold mt-2 mb-2">Events</h1>
                         <div className="bg-white h-1 w-36 rounded-md"></div>
                     </div>
-                    <div className="flex flex-wrap pt-8 pb-8 gap-4 md:gap-6 justify-center md:justify-start">
+                    <div className="flex flex-wrap pt-8 pb-8 gap-4 md:gap-6 justify-start">
                         <div className="flex flex-col items-center w-60 gap-3 bg-gradient-to-br from-black to-blue-800 p-3 rounded-lg">
                             <img src="event_photos/event1-removebg-preview1.png" className="h-40 rounded-lg"></img>
                             <div className="flex flex-col items-center">
