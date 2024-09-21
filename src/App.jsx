@@ -72,6 +72,20 @@ function App() {
               </>
             }
           />
+               <Route
+                path="*
+                element={
+                  <>
+                    <Navbar />
+                    <Hero />
+                    <Cards />
+                    <EDCellHighlights />
+                    <Incubatees />
+                    <hr />
+                    <Footer />
+                  </>
+                }
+              />
         </Routes>
       </div>
     </Router>)}
