@@ -3,7 +3,7 @@ import { useState } from "react"
 import React from "react";
 export default function Innovation_Challenge() {
     const [number, changeNumber] = useState(1)
-    const [photo, changePhoto] = useState("ic_photos/0.JPG")
+    const [photo, changePhoto] = useState("ic_photos/1.JPG")
     useEffect(() => {
         changePhoto("ic_photos/" + number + ".JPG")
     }, [number])
@@ -24,9 +24,9 @@ export default function Innovation_Challenge() {
                     </h1>
                 </div>
                 <div className="flex justify-evenly items-center md:w-1/2">
-                    <img src="event_photos/left-chevron.png" className="h-8 w-8 md:h-10 md:w-10" onClick={() => { changeNumber(number - 1 || 8) }}></img>
+                    <img src="event_photos/left-chevron.png" className="h-8 w-8 md:h-10 md:w-10" onClick={() => { changeNumber(number- 1 || 9) }}></img>
                     <img src={photo} className="rounded-lg w-[260px] md:w-[400px] delay-100"></img>
-                    <img src="event_photos/left-chevron.png" className="h-8 w-8 md:h-10 md:w-10 rotate-180" onClick={() => { changeNumber((number + 1) % 9 || 0) }}></img>
+                    <img src="event_photos/left-chevron.png" className="h-8 w-8 md:h-10 md:w-10 rotate-180" onClick={() => { changeNumber((number + 1) % 10 || 1) }}></img>
                 </div>
             </div> 
             <div>
