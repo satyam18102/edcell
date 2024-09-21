@@ -13,7 +13,7 @@ const Incubatees = () => {
       {items.map((item, index) => (
         <div
           key={index}
-          className="mb-12 md:mb-16 lg:mb-20 rounded-lg shadow-md overflow-hidden bg-gradient-to-r from-[#3b3080] to-[#0c023d] "
+          className="mb-12 md:mb-16 lg:mb-20 rounded-lg overflow-hidden bg-gradient-to-r from-[#3b3080] to-[#0c023d] "
         >
           <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-8">
             <div className="text-left lg:w-3/4 mb-4 lg:mb-0">
