@@ -14,7 +14,7 @@ function Cards() {
     },
     {
       id: 3,
-      image: "/assets/images/events/EFEST6.0.png",
+      image: "/assets/images/events/efest6.0.png",
     },
   ];
 
