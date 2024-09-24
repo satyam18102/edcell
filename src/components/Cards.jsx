@@ -12,10 +12,10 @@ function Cards() {
       id: 2,
       image: "/assets/images/events/inn2.jpg",
     },
-    // {
-    //   id: 3,
-    //   image: "/src/assets/images/events/efest5.0.png",
-    // },
+    {
+      id: 3,
+      image: "/src/assets/images/events/EFEST6.0.png",
+    },
   ];
 
   return (
