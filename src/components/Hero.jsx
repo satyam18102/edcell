@@ -30,25 +30,7 @@ export function Hero() {
             Think
             <FlipWords words={words} />
           </div>
-          <div className="flex flex-col text-center absolute bottom-20 h-18 w-screen">
-            <div className="">
-              <h1 className="text-white text-3xl">In Association with</h1>
-            </div>
-            <br />
-            <div className="flex justify-center align-middle space-x-10 lg:space-x-14 md:space-x-10 sm:space-x-10 ">
-              <img
-                src="\assets\images\iiclogo.jpg"
-                className="lg:w-auto sm:w-1/3 w-1/3 md:w-auto"
-                alt=""
-              />
-              <img
-                src="\assets\images\switchtechlogo.png"
-                className="lg:w-auto sm:w-1/3 w-1/3 md:w-auto"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
+                  </div>
       </BackgroundBeamsWithCollision>
     </div>
   );
