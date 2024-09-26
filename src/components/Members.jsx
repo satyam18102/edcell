@@ -1,84 +1,180 @@
 
 import NewCardStyle from "./NewCardStyle"
+import TeamCard from "./TeamCard"
 
-let members = [
+const fic = [
     {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
         name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
-    {
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHIUWFaEnPZKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516820125261?e=2147483647&v=beta&t=FXymMPYZSwuv4upuBLSNULVX6c-yCoJ3vybluYqNyJs",
-        name: "Dr. Mahendra Prasad Agasty",
-        position: "Faculty In Charge"
-    },
- 
+        about: "FIC ED Cell | Secretary IIC",
+        image: "/team/agasty.JPG"
+    }
 ]
+
+const teamfaculty=[
+    {
+        name:"Sanghamitra Das",
+        about:"",
+        image:""
+    },
+    {
+        name:"Arnab Pal",
+        about:"",
+        image:""
+    },
+    {
+        name:"Tapas Maji",
+        about:"",
+        image:""
+    },
+    {
+        name:"Satish Kumar Das",
+        about:"",
+        image:""
+    },
+    {
+        name:"Annapurna Mishra",
+        about:"",
+        image:""
+    },
+    {
+        name:"Sudhansu Mohan Biswal",
+        about:"",
+        image:""
+    },
+    {
+        name:"Sweta Mohanty",
+        about:"",
+        image:""
+    },
+    {
+        name:"Pratap Ranjan Mohanty",
+        about:"",
+        image:""
+    },
+    {
+        name:"Nibedita Swain",
+        about:"",
+        image:""
+    },
+    {
+        name:"Dr. Nibedita Kar",
+        about:"",
+        image:""
+    },
+    {
+        name:"Siba Shankar Nayak",
+        about:"",
+        image:""
+    },
+
+]
+
+const teamstudent = [
+    {
+        name: "Girish Bharadwaj",
+        about: "Chairperson",
+        image: "/team/girish2.jpg"
+    },
+    {
+        name: "Saswat Tripathi",
+        about: "Secretary | NR",
+        image: "/team/saswatcrop.JPG"
+    },
+    {
+        name: "Sailendra Biswal",
+        about: "4th Year",
+        image: ""
+    },
+    {
+        name: "Armaan Biswal",
+        about: "4th Year",
+        image: ""
+    },
+    {
+        name: "Prayash Nayak",
+        about: "4th Year",
+        image: ""
+    },
+    {
+        name: "Akankhsya",
+        about: "4th Year",
+        image: ""
+    },
+    {
+        name: "Shubham Kumar",
+        about: "3rd Year",
+        image: "/team/shubham.jpg"
+    },
+    {
+        name: "Anmol Singh",
+        about: "3rd Year",
+        image: "/team/anmol.JPG"
+    },
+    {
+        name: "Gomesh Agarwall",
+        about: "3rd Year",
+        image: ""
+    },
+    {
+        name: "Piush Praharaj",
+        about: "3rd Year",
+        image: "/team/piush2.JPG"
+    },
+    {
+        name: "Ayush Singh",
+        about: "3rd Year",
+        image: "/team/ayush2.jpg"
+    },
+    {
+        name: "Puja Mahato",
+        about: "3rd Year",
+        image: "/team/puja2.jpg"
+    },
+    {
+        name: "Priyanshi Dubey",
+        about: "3rd Year",
+        image: "/team/priyanshi2.JPG"
+    },
+    {
+        name: "M. Flora",
+        about: "3rd Year",
+        image: "/team/flora.jpg"
+    },
+]
+
 
 export default function Members() {
     window.scrollTo(0,0)
     return (
-        <>
-            <div className="flex justify-center items-center mt-5 ">
-                <h1 className="text-4xl font-bold text-sky-500 text-center">Our Team</h1>
+        <div className="overflow-hidden bg-gradient-to-b from-sky-950 to-black">
+            <div className="flex flex-col items-center gap-2 m-10">
+                <h1 className="text-white font-bold text-2xl md:text-3xl lg:text-5xl">Our Team</h1>
+                <div className="bg-white h-[4px] w-44 md:w-60 rounded-md"></div>
             </div>
             <div className="pl-10 mt-5">
-                <h1 className="text-white text-2xl font-bold">Faculty In Charge</h1>
+                <h1 className="text-white text-2xl font-bold">FACULTY IN CHARGE</h1>
             </div>
-            <div className="flex flex-wrap gap-5 w-dvw h-auto justify-center sm:justify-start sm:pl-14 p-5 items-center">
+            <div className="flex flex-wrap gap-5 w-dvw h-auto justify-center sm:justify-start md:pl-10 p-5 items-center">
                 {
-                    members.map((item) => (<NewCardStyle image={item.image} name={item.name} position={item.position} />))
+                    fic.map((item) => (<TeamCard image={item.image} name={item.name} about={item.about} />))
                 }
             </div>
             <div className="pl-10 mt-5">
-                <h1 className="text-white text-2xl font-bold">Core Members</h1>
+                <h1 className="text-white text-2xl font-bold">IIC FACULTIES</h1>
             </div>
-            <div className="flex flex-wrap gap-5 w-dvw h-auto justify-center sm:justify-start sm:pl-14 p-5 items-center">
+            <div className="flex flex-wrap gap-5 w-dvw h-auto justify-center sm:justify-start md:pl-10 p-5 items-center">
                 {
-                    members.map((item) => (<NewCardStyle image={item.image} name={item.name} position={item.position} />))
+                    teamfaculty.map((item) => (<TeamCard image={item.image} name={item.name} about={item.about} />))
                 }
             </div>
-        </>
+            <div className="pl-10 mt-5">
+                <h1 className="text-white text-2xl font-bold">CORE MEMBERS</h1>
+            </div>
+            <div className="flex flex-wrap gap-5 w-dvw h-auto justify-center sm:justify-start md:pl-10 p-5 items-center">
+                {
+                    teamstudent.map((item) => (<TeamCard image={item.image} name={item.name} about={item.about} />))
+                }
+            </div>
+        </div>
     )
 }
