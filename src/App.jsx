@@ -13,6 +13,7 @@ import Innovation_Challenge from "./components/Innovation_Challenge";
 import Members from "./components/Members"
 import Loader from "./components/Loader";
 import { useState, } from "react";
+import Team from "./components/Team.jsx"
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(true);
@@ -38,6 +39,7 @@ function App() {
                     <Cards />
                     <EDCellHighlights />
                     <Incubatees />
+                    <Team/>
                     <hr />
                     <Footer />
                   </>
@@ -82,6 +84,7 @@ function App() {
                     <Cards />
                     <EDCellHighlights />
                     <Incubatees />
+                    <Team/>
                     <hr />
                     <Footer />
                   </>
