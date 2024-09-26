@@ -30,7 +30,7 @@ const teamstudent = [
 export default function Team() {
     return (
         <div className="px-4 lg:px-12 py-8 lg:py-16 bg-gradient-to-b 
-         from-[#0c023d] to-black id="member">
+         from-[#0c023d] to-black id="members">
             <div className="flex justify-center">
                 <h1 className="text-white font-bold text-2xl md:text-3xl lg:text-5xl">Our Team</h1>
             </div>
