@@ -5,7 +5,7 @@ import TeamCard from "./TeamCard"
 const fic = [
     {
         name: "Dr. Mahendra Prasad Agasty",
-        about: "FIC ED Cell | Secretary IIC",
+        about: "FIC ED Cell | President IIC",
         image: "/team/agasty.JPG"
     }
 ]
@@ -51,22 +51,13 @@ const teamfaculty=[
         about:"",
         image:""
     },
+    
     {
-        name:"Dr. Nibedita Swain",
+        name:"Dr. Priyanka Kar",
         about:"",
         image:""
     },
-    {
-        name:"Dr. Nibedita Kar",
-        about:"",
-        image:""
-    },
-    {
-        name:"Dr. Siba Shankar Nayak",
-        about:"",
-        image:""
-    },
-
+    
 ]
 
 const teamstudent = [
