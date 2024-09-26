@@ -68,7 +68,7 @@ const Navbar = () => {
             >
               Events
             </ScrollLink>
-            <Link
+            <ScrollLink
               to="members"
               smooth={true}
               duration={500}
@@ -76,7 +76,7 @@ const Navbar = () => {
               activeClass="text-gray-400" // Add this line
             >
               Members
-            </Link>
+            </ScrollLink>
             <ScrollLink
               to="Incubatees"
               smooth={true}
