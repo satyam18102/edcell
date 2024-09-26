@@ -153,7 +153,7 @@ const Navbar = () => {
               activeClass="text-gray-400" // Add this line
               onClick={() => setIsMenuOpen(false)}
             >
-              Event
+              Events
             </ScrollLink>
             <ScrollLink
               to="members"
