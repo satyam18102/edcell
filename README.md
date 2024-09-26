@@ -1,1 +1,1 @@
-An Example Template for Using Acceterinity UI with Vite And React
+The Official Site for Entrepreneurship Development Cell, Silicon University Bhubaneswar
