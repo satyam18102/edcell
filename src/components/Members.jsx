@@ -12,47 +12,47 @@ const fic = [
 
 const teamfaculty=[
     {
-        name:"Sanghamitra Das",
+        name:"Dr. Sanghamitra Das",
         about:"",
         image:""
     },
     {
-        name:"Arnab Pal",
+        name:"Dr. Arnab Pal",
         about:"",
         image:""
     },
     {
-        name:"Tapas Maji",
+        name:"Dr. Tapas Maji",
         about:"",
         image:""
     },
     {
-        name:"Satish Kumar Das",
+        name:"Mr. Satish Kumar Das",
         about:"",
         image:""
     },
     {
-        name:"Annapurna Mishra",
+        name:"Dr. Annapurna Mishra",
         about:"",
         image:""
     },
     {
-        name:"Sudhansu Mohan Biswal",
+        name:"Dr. Sudhansu Mohan Biswal",
         about:"",
         image:""
     },
     {
-        name:"Sweta Mohanty",
+        name:"Mrs. Sweta Mohanty",
         about:"",
         image:""
     },
     {
-        name:"Pratap Ranjan Mohanty",
+        name:"Dr. Pratap Ranjan Mohanty",
         about:"",
         image:""
     },
     {
-        name:"Nibedita Swain",
+        name:"Dr. Nibedita Swain",
         about:"",
         image:""
     },
@@ -62,7 +62,7 @@ const teamfaculty=[
         image:""
     },
     {
-        name:"Siba Shankar Nayak",
+        name:"Dr. Siba Shankar Nayak",
         about:"",
         image:""
     },
