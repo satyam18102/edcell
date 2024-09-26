@@ -1,6 +1,10 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import React from "react";
+
+
+const images=["1.JPG","2.JPG","3.JPG","4.JPG","5.jpg","6.JPG","7.JPG","8.JPG","9.JPG"]
+
 export default function Innovation_Challenge() {
     const [number, changeNumber] = useState(1)
     const [photo, changePhoto] = useState("ic_photos/1.JPG")
