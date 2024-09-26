@@ -155,7 +155,7 @@ const Navbar = () => {
             >
               Event
             </ScrollLink>
-            <Link
+            <ScrollLink
               to="members"
               smooth={true}
               duration={500}
@@ -164,7 +164,7 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Member
-            </Link>
+            </ScrollLink>
             <ScrollLink
               to="Incubatees"
               smooth={true}
