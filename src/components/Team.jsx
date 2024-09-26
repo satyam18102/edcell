@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const teamfaculty = [
     {
         name: "Dr. Mahendra Prasad Agasty",
-        about: "FIC ED Cell | Secretay IIC",
+        about: "FIC ED Cell | President IIC",
         image: "/team/agasty.JPG"
     }
 ]
