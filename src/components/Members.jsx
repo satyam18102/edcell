@@ -72,6 +72,11 @@ const teamstudent = [
         image: "/team/saswatcrop.JPG"
     },
     {
+        name: "Shubham Kumar",
+        about: "Joint Secretary",
+        image: "/team/shubham.jpg"
+    },
+    {
         name: "Sailendra Biswal",
         about: "4th Year",
         image: ""
@@ -91,11 +96,7 @@ const teamstudent = [
         about: "4th Year",
         image: ""
     },
-    {
-        name: "Shubham Kumar",
-        about: "3rd Year",
-        image: "/team/shubham.jpg"
-    },
+    
     {
         name: "Anmol Singh",
         about: "3rd Year",
