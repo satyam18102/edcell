@@ -67,7 +67,7 @@ const teamstudent = [
         image: "/team/girish2.jpg"
     },
     {
-        name: "Saswat Tripathi",
+        name: "Shaswat Tripathi",
         about: "Secretary | NR",
         image: "/team/saswatcrop.JPG"
     },
