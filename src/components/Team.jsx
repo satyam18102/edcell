@@ -21,6 +21,11 @@ const teamstudent = [
         about: "Secretary | NR",
         image: "/team/saswatcrop.JPG"
     },
+    {
+        name: "Shubham Kumar",
+        about: "Joint Secretary",
+        image: "/team/shubham.jpg"
+    },
 
 ]
 
