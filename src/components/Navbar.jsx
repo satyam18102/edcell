@@ -195,7 +195,7 @@ const Navbar = () => {
               to="gallery"
               smooth={true}
               duration={500}
-              className="block text-white hover:text-gray-300 text-lg cursor-pointer "
+              className="block text-white hover:text-gray-300 text-lg cursor-pointer pb-7"
               activeClass="text-gray-400" // Add this line
               onClick={() => setIsMenuOpen(false)}
             >
@@ -205,7 +205,7 @@ const Navbar = () => {
               to="register"
               smooth={true}
               duration={500}
-              className="text-white text-xl cursor-pointer hover:text-gray-300 bg-violet-900 rounded-2xl p-2 px-7 -bottom-10 hover:scale-105"
+              className="text-white text-xl cursor-pointer hover:text-gray-300 bg-violet-900 rounded-2xl p-2 px-7 hover:scale-105"
               >Join Us</Link>
           </div>
         </div>
