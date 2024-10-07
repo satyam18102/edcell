@@ -195,7 +195,7 @@ const Navbar = () => {
               to="gallery"
               smooth={true}
               duration={500}
-              className="block text-white hover:text-gray-300 text-lg cursor-pointer mb-3"
+              className="block text-white hover:text-gray-300 text-lg cursor-pointer mb-20"
               activeClass="text-gray-400" // Add this line
               onClick={() => setIsMenuOpen(false)}
             >
