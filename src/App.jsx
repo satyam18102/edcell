@@ -60,7 +60,14 @@ function App() {
                 <EFest5 />
             }
           />
-         
+         <Route 
+           path="/register"
+           element={<iframe
+                      src="https://forms.fillout.com/t/kjiTMv3vm6us"
+                      className="h-screen w-full"
+                      style={{ border: 0 }}
+                    ></iframe>}
+           />
           <Route
             path="/2"
             element={
