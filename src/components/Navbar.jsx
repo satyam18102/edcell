@@ -108,7 +108,7 @@ const Navbar = () => {
               to="register"
               smooth={true}
               duration={500}
-              className="text-white text-xl cursor-pointer hover:text-gray-300 bg-violet-900 rounded-2xl p-2 px-7"
+              className="text-white text-xl cursor-pointer hover:text-gray-300 bg-violet-900 rounded-2xl p-2 px-7 hover:scale-105"
               >Join Us</Link>
           </div>
           <div className="md:hidden md:ml-12">
@@ -201,6 +201,12 @@ const Navbar = () => {
             >
               Gallery
             </Link>
+            <Link 
+              to="register"
+              smooth={true}
+              duration={500}
+              className="text-white text-xl cursor-pointer hover:text-gray-300 bg-violet-900 rounded-2xl p-2 px-7 hover:scale-105"
+              >Join Us</Link>
           </div>
         </div>
       )}
