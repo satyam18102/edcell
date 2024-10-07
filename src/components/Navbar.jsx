@@ -108,7 +108,7 @@ const Navbar = () => {
               to="register"
               smooth={true}
               duration={500}
-              className="text-white text-xl cursor-pointer hover:text-gray-300 bg-violet-700 rounded-xl p-5"
+              className="text-white text-xl cursor-pointer hover:text-gray-300 bg-violet-900 rounded-xl p-12"
               >Join Us</Link>
           </div>
           <div className="md:hidden md:ml-12">
