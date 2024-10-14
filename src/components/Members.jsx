@@ -105,7 +105,7 @@ const teamstudent = [
     {
         name: "Gomesh Agarwall",
         about: "3rd Year",
-        image: ""
+        image: "/team/gomesh.jpg"
     },
     {
         name: "Piush Praharaj",
