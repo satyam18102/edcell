@@ -14,6 +14,19 @@ import Members from "./components/Members"
 import Loader from "./components/Loader";
 import { useState, } from "react";
 import Team from "./components/Team.jsx"
+import SparkUpSummit from "./components/SparkUpSummit.jsx";
+import SocialMedia from "./components/sparkupsummit/Team/SocialMedia";
+import Marketing from "./components/sparkupsummit/Team/Marketing";
+import Production from "./components/sparkupsummit/Team/Production";
+import Finance from "./components/sparkupsummit/Team/Finance";
+import Graphics from "./components/sparkupsummit/Team/Graphics";
+import Leads from "./components/sparkupsummit/Team/Leads";
+import Content from "./components/sparkupsummit/Team/Content";
+import Creative from "./components/sparkupsummit/Team/Creative";
+import Sponsorship from "./components/sparkupsummit/Team/Sponsorship";
+import Logistics from "./components/sparkupsummit/Team/Logistics";
+import Web from "./components/sparkupsummit/Team/Web"
+
 
 function App() {
   const [screenLoading, setScreenLoading] = useState(true);
@@ -24,15 +37,14 @@ function App() {
   }, []);
   return (
     <>
-      {screenLoading ? (
-        <Loader />
-      ) : (
         <Router>
           <div className="dark">
             <Routes>
               <Route
                 path="/"
-                element={
+                element={screenLoading ? (
+                  <Loader />
+                ) : (
                   <>
                     <Navbar />
                     <Hero />
@@ -42,7 +54,7 @@ function App() {
                     <Team/>
                     <hr />
                     <Footer />
-                  </>
+                  </>)
                 }
               />
 
@@ -66,6 +78,21 @@ function App() {
                 <Innovation_Challenge />
             }
           />
+          <Route 
+          path="/sparkupsummi"
+          element={<SparkUpSummit/>}
+          />
+          <Route path="/sparkupsummit/Web" element={<Web />} />
+            <Route path="/sparkupsummit/SocialMedia" element={<SocialMedia />} />
+            <Route path="/sparkupsummit/Marketing" element={<Marketing />} />
+            <Route path="/sparkupsummit/Production" element={<Production />} />
+            <Route path="/sparkupsummit/Finance" element={<Finance />} />
+            <Route path="/sparkupsummit/Graphics" element={<Graphics />} />
+            <Route path="/sparkupsummit/Leads" element={<Leads />} />
+            <Route path="/sparkupsummit/Content" element={<Content />} />
+            <Route path="/sparkupsummit/Creative" element={<Creative />} />
+            <Route path="/sparkupsummit/Sponsorship" element={<Sponsorship />} />
+            <Route path="/sparkupsummit/Logistics" element={<Logistics />} />
           <Route
             path="/members"
             element={
@@ -90,10 +117,9 @@ function App() {
                   </>
                 }
               />
-               
         </Routes>
       </div>
-    </Router>)}
+    </Router>
     </>
   );
 }
