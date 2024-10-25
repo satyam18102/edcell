@@ -4,7 +4,7 @@ export const Vision = () => {
   return (
     <div>
       <div className="flex justify-end">
-        <div className="polygon-border-about relative text-center p-5 md:w-1/2 w-3/4">
+        <div className="polygon-border-vision relative text-center p-5 md:w-1/2 w-3/4">
           <h1 className="text-white text-3xl">Our Vision</h1>
         </div>
       </div>
