@@ -62,7 +62,7 @@ const Events = () => {
     <div className="w-3/4 m-auto" id="events">
       <img
         className="mb-6 flex justify-center m-auto"
-        src="/assets/images/TEAM/2.png"
+        src="/sparkupsummit/images/TEAM/2.png"
       />      
       <div className="mt-20">
         <Slider {...settings}>
