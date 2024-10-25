@@ -20,7 +20,7 @@ const speakers = [
     key: 2,
     name: "Dipan Sahu",
     image: "/sparkupsummit/images/highlights/sp3.webp",
-    position: "Asst. Innovation Director,Ministry of Education's Innovation Cell & AICTE,Government of India"
+    position: "Asst. Innovation Director,MoE's Innovation Cell & AICTE"
   },
   {
     key: 3,
