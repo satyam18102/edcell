@@ -22,9 +22,10 @@ const sponsorsData = [
 const Sponsors = () => {
   return (
     <div className="mx-auto px-4 lg:px-12 py-8 lg:py-16" id="sponsors">
-      <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 md:mb-12 text-center text-white">
-        Our Sponsors
-      </h2>
+     <img
+        className="mb-6 flex justify-center m-auto"
+        src="/sparkupsummit/images/TEAM/1.png"
+      />
       <div className="relative overflow-hidden">
         <div className="flex animate-scroll gap-6 w-full items-center">
           {sponsorsData.map((sponsor) => (
