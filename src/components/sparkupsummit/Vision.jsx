@@ -9,19 +9,7 @@ export const Vision = () => {
         </div>
       </div>
       <br />
-      <div className="flex flex-col md:flex-row bg-cover bg-center">
-        <div className="md:w-1/2 w-full flex items-center justify-center p-4">
-          <img
-            style={{
-              boxShadow: "-9px 9px 18px rgba(0, 0, 0, 0.9)",
-            }}
-            className="rounded-3xl w-[300px] h-[200px] lg:w-[560px] lg:h-[315px] transform-image"
-            width="560"
-            height="315"
-            src="sparkupsummit/images/vision2.png"
-            alt="Vision"
-          />
-        </div>
+      <div className="flex flex-col-reverse md:flex-row bg-cover bg-center">
         <div className="md:w-1/2 sm:text-sm md:text-lg lg:text-lg text-sm font-light w-full flex items-center justify-center text-[#DEC7A0] p-8 md:p-12">
           <p className="leading-relaxed max-w-xl">
             E-fest 6.0 aims to spark an entrepreneurial spirit among diverse
@@ -37,6 +25,18 @@ export const Vision = () => {
             opportunities for all to engage in and contribute to our vibrant
             community
           </p>
+        </div>
+        <div className="md:w-1/2 w-full flex items-center justify-center p-4">
+          <img
+            style={{
+              boxShadow: "-9px 9px 18px rgba(0, 0, 0, 0.9)",
+            }}
+            className="rounded-3xl w-[300px] h-[200px] lg:w-[560px] lg:h-[315px] transform-image"
+            width="560"
+            height="315"
+            src="sparkupsummit/images/vision2.png"
+            alt="Vision"
+          />
         </div>
       </div>
     </div>
