@@ -18,7 +18,7 @@ export default {
             },
             backgroundImage: {
                 mh: "url('/bgimage.webp')",
-                bg: "url('/sparkupsummit/images/backgrounds/background.jpg')",
+                bg: "url('/sparkupsummit/images/backgrounds/back.jpg')",
                 bg1: "url('/sparkupsummit/images/backgrounds/home_bg.jpg')", // Added background image
             },
             animation: {
