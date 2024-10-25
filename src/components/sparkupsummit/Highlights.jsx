@@ -68,17 +68,12 @@ export default function Highlights() {
     swipe: true,
   };
   return (
-    <div className=" flex justify-start flex-col w-screen p-3 bg-bg bg-contain bg-[#00000062] bg-blend-darken" id="glimpse">
-      <div className="w-screen h-40 flex flex-col justify-center items-center p-2 ">
-        <img src="/assets/images/highlights/border.png" className="w-96" />
-        <div className="flex gap-2 items-center">
-          <h1 className="font-anton text-white text-6xl  mt-3">E FEST 5.0 </h1>
-          <h1 className="text-[#db0c26] font-anton text-6xl mt-3 ">HIGHLIGHTS</h1>
-        </div>
-        <img src="/assets/images/highlights/border.png" className="w-96" />
+    <div className=" flex justify-start flex-col w-screen p-3 bg-contain bg-[#00000062] bg-blend-darken" id="glimpse">
+      <div className="w-screen flex flex-col justify-center items-center p-2 ">
+       //Add Image
       </div>
       <div className="flex flex-wrap justify-around">
-        <div className="p-3 my-8 md:w-1/2 w-[290px]">
+        <div className="p-3 my-8 md:w-1/2 w-full">
           <p className="font-anton text-white text-lg md:text-xl">E-Fest 5.0 was the 5th edition of annual entrepreneurship festival held at Silicon University(formerly Silicon Institute of Technology) in Bhubaneswar.Participants came from over 40 institutions and the event emerged as a significant gathering in the entrepreneurship landscape,fostering business culture and innovative ideas among students. </p>
           <br></br>
           <p className="font-anton text-white text-lg md:text-xl">Students enthusiastically engaged in various events (namely Biding War,Biz Tank,Pitch Against a Startup,Ad-Mad Show and Prototype Exhibition) that enhanced their skills while connecting with peers,seniors from across Odisha and entrepreneurs across India. </p>
