@@ -60,7 +60,10 @@ const Events = () => {
 
   return (
     <div className="w-3/4 m-auto" id="events">
-            <h1 className="text-4xl font-bold text-center mb-6 text-white">Events</h1>
+      <img
+        className="mb-6 flex justify-center m-auto"
+        src="/assets/images/TEAM/2.png"
+      />      
       <div className="mt-20">
         <Slider {...settings}>
           {data.map((d, index) => (
