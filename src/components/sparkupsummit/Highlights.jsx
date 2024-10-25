@@ -88,7 +88,7 @@ export default function Highlights() {
         </div>
       </div>
       <div className="justify-center w-screen items-center md:p-5 flex flex-col gap-2">
-        <h1 className="font-anton text-red-600 text-2xl  p-3 m-5 mb-5 inline">Glimpse</h1>
+        <h1 className="font-anton text-red-600 text-4xl  p-3 m-5 mb-5 inline">Glimpse</h1>
         <Slider {...settings} className="w-[290px] md:w-3/4 items-center flex justify-center relative right-2">
           {glim.map((item) => (<Glimpse image={item}></Glimpse>))}
         </Slider>
