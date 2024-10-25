@@ -70,7 +70,10 @@ export default function Highlights() {
   return (
     <div className=" flex justify-start flex-col w-screen p-3 bg-contain bg-[#00000062] bg-blend-darken" id="glimpse">
       <div className="w-screen flex flex-col justify-center items-center p-2 ">
-       //Add Image
+       <img
+            className="mb-6 flex justify-center m-auto"
+            src="/sparkupsummit/images/TEAM/4.png"
+          />
       </div>
       <div className="flex flex-wrap justify-around">
         <div className="p-3 my-8 md:w-1/2 w-full">
@@ -94,7 +97,10 @@ export default function Highlights() {
         </Slider>
       </div>
       <div className="flex flex-col items-center p-2 ">
-        <h1 className="font-anton text-white text-2xl bg-red-600 p-3 m-8">Guest Speakers</h1>
+        <img
+          className="mb-6 flex justify-center m-auto"
+          src="/sparkupsummit/images/TEAM/5.png"
+        />
         <div className="grid-cols-2 grid gap-6 md:flex md:gap-12 md:mt-8 ">
           {speakers.map((item) => (<Speaker image={item.image} name={item.name} position={item.position} minus={(item.key % 2 == 0) ? "rotate-3" : "-rotate-3"} />))}
         </div>
