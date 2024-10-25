@@ -1,4 +1,3 @@
-//Code by Piyush
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -6,21 +5,19 @@ const Members = () => {
   return (
     <div
       id="team"
-      className="w-full h-screen flex items-center justify-center bg-cover bg-black bg-center"
+      className="w-full h-full flex flex-col items-center justify-center bg-cover bg-black bg-center"
     >
+      <img
+        className="flex justify-center m-auto"
+        src="/sparkupsummit/images/TEAM/3.png"
+      />
       <div className="relative flex items-center justify-center">
         <img
-          src="sparkupsummit\images\mask.jpg"
+          src="/sparkupsummit/images/mask.jpg"
           alt="Mask"
-          className="max-w-[300px] h-[550px] mt-[100px] ml-[-30px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] xl:max-w-[700px] max-h-[40%] object-contain"
+          className="max-w-[300px] h-[550px] ml-[-30px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] xl:max-w-[700px] max-h-[40%] object-contain"
         />
-        <h1
-          className="absolute top-[20px] left-5 text-white text-7xl font-bold lg:text-8xl"
-          id="team-text"
-        >
-          El&nbsp;<span className="text-red-500">Equipo</span>
-        </h1>
-        <div className="text-white opacity-60 text-2xl mt-[85px] md:ml-1 md:w-1/2 space-y-2 font-bold">
+        <div className="text-white opacity-60 text-2xl md:ml-1 md:w-1/2 space-y-2 font-bold">
           <Link to="/sparkupsummit/Leads">
             <h2 className="text-white">
               L<span className="text-red-500">eads</span>
