@@ -87,17 +87,17 @@ export default function Highlights() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center p-2 ">
-        <h1 className="font-anton text-white text-2xl bg-red-600 p-3 m-8">Guest Speakers</h1>
-        <div className="grid-cols-2 grid gap-6 md:flex md:gap-12 md:mt-8 ">
-          {speakers.map((item) => (<Speaker image={item.image} name={item.name} position={item.position} minus={(item.key % 2 == 0) ? "rotate-3" : "-rotate-3"} />))}
-        </div>
-      </div>
       <div className="justify-center w-screen items-center md:p-5 flex flex-col gap-2">
         <h1 className="font-anton text-white text-2xl bg-red-600 p-3 m-5 mb-5 inline">Glimpse</h1>
         <Slider {...settings} className="w-[290px] md:w-3/4 items-center flex justify-center relative right-2">
           {glim.map((item) => (<Glimpse image={item}></Glimpse>))}
         </Slider>
+      </div>
+      <div className="flex flex-col items-center p-2 ">
+        <h1 className="font-anton text-white text-2xl bg-red-600 p-3 m-8">Guest Speakers</h1>
+        <div className="grid-cols-2 grid gap-6 md:flex md:gap-12 md:mt-8 ">
+          {speakers.map((item) => (<Speaker image={item.image} name={item.name} position={item.position} minus={(item.key % 2 == 0) ? "rotate-3" : "-rotate-3"} />))}
+        </div>
       </div>
     </div>
   )
