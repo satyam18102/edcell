@@ -90,7 +90,7 @@ export default function Highlights() {
           </div>
         </div>
       </div>
-      <div className="justify-center w-screen items-center md:p-5 flex flex-col gap-2">
+      <div className="justify-center w-screen items-center md:p-5 flex flex-col gap-2 my-4">
        
         <Slider {...settings} className="w-[290px] md:w-3/4 items-center flex justify-center relative right-2">
           {glim.map((item) => (<Glimpse image={item}></Glimpse>))}
