@@ -83,15 +83,15 @@ export default function Highlights() {
           <br></br>
           <p className="font-anton text-white text-lg md:text-xl">Building on its success and great responses recieved by students,Entrepreneurship Development Cell plans to continue its legacy and come up with new ideas and inititatives.Buckle up for more surprises to come!</p>
         </div>
-        <div className="flex flex-col items-center p-2 mt-4">
-          <h1 className="font-anton text-white text-2xl bg-red-600 p-3 m-3 mb-5 inline">Stats</h1>
+        <div className="flex flex-col items-center justify-center p-2 mt-4">
+          
           <div className="grid-cols-2 grid gap-5 ">
             {stats.map((item) => (<Stats num={item.num} title={item.title} />))}
           </div>
         </div>
       </div>
       <div className="justify-center w-screen items-center md:p-5 flex flex-col gap-2">
-        <h1 className="font-anton text-white text-4xl md:text-6xl p-3 m-5 mb-5 inline">Glimpse</h1>
+       
         <Slider {...settings} className="w-[290px] md:w-3/4 items-center flex justify-center relative right-2">
           {glim.map((item) => (<Glimpse image={item}></Glimpse>))}
         </Slider>
