@@ -1,5 +1,5 @@
 import React from "react";
-import { InfiniteMovingCards1 } from "./ui/infinite-moving-cards1";
+import { InfiniteMovingCards1 } from "../ui/infinite-moving-cards1";
 
 const sponsorsData = [
   { id: 1, img: "/sparkupsummit/images/sponsors/sp1.png" },
