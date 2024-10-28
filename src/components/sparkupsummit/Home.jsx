@@ -9,7 +9,7 @@ const Home = () => {
       <div className={(window.innerWidth < 400)?"flex-none":"first-container"}>
         <ParticlesComponent id="particles" />
       </div>
-      <div className='h-screen md:w-1/3 w-screen pt-6'>
+      <div className='h-screen md:w-1/3 w-screen pt-10 md:pt-6'>
         <Home_Center/>
       </div>
       <div className={(window.innerWidth < 400)?"flex-none":"first-container"}>
