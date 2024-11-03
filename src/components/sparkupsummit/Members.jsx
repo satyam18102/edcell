@@ -23,6 +23,11 @@ const Members = () => {
               L<span className="text-red-500">eads</span>
             </h2>
           </Link>
+          <Link to="/sparkupsummit/Mentor">
+            <h2 className="text-white">
+              M<span className="text-red-500">entor</span>
+            </h2>
+          </Link>
           <Link to="/sparkupsummit/Content">
             <h2>
               Co<span className="text-red-500">ntent</span>
