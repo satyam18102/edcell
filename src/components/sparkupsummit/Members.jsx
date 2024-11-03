@@ -20,7 +20,7 @@ const Members = () => {
         <div className="text-white opacity-60 text-2xl md:ml-1 md:w-1/2 space-y-2 font-bold">
           <Link to="/sparkupsummit/Leads">
             <h2 className="text-white">
-              L<span className="text-red-500">eads</span>
+              L<span className="text-red-500"> e a d s</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Mentor">
