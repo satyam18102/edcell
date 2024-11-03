@@ -30,7 +30,7 @@ const members = [
     name: "Prayash Nayak",
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/prayash.jpg",
+    img2: "/sparkupsummit/images/members/prayash.JPG",
   },
 ];
 
