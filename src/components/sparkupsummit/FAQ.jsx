@@ -4,10 +4,10 @@ export default function FAQ() {
     return (
         <div className="accordion-container">
             <h1>Frequently asked Questions</h1>
-            <Accordion
+{/*             <Accordion
                 title="When and where will the summit be held?"
                 content="Sparkup Summit will be held from 29th November to 1st December at Silicon University, Bhubaneswar, Odisha."
-            />
+            /> */}
             <Accordion
                 title="Who can attend the Sparkup Summit?"
                 content="The Sparkup Summit is open to school and college students from different regions, as well as budding startups, investors, and entrepreneurs."
