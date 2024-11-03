@@ -77,6 +77,7 @@ const Members = () => {
       </div>
       <div className="flex justify-center items-center  bg-transparent flex-wrap">
         <h3  className="font-anton text-white text-xl shadow-red-400 shadow-sm">Click above words to explore Team</h3>
+      </div>
     </div>
   );
 };
