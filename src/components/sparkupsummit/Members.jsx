@@ -17,10 +17,10 @@ const Members = () => {
           alt="Mask"
           className="max-w-[300px] h-[550px] ml-[-30px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] xl:max-w-[700px] max-h-[40%] object-contain"
         />
-        <div className="text-white opacity-60 text-2xl md:ml-1 md:w-1/2 space-y-2 font-bold">
+        <div className="text-white opacity-60 text-2xl md:ml-1 md:w-1/2 space-y-2 font-bold top-2">
           <Link to="/sparkupsummit/Leads">
-            <h2 className="text-white">
-              L<span className="text-red-500"> e a d s</span>
+            <h2 className="text-white tracking-[1px]">
+              L<span className="text-red-500">eads</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Mentor">
