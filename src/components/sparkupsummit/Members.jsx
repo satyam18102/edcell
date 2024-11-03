@@ -17,64 +17,64 @@ const Members = () => {
           alt="Mask"
           className="max-w-[300px] h-[550px] ml-[-30px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] xl:max-w-[700px] max-h-[40%] object-contain"
         />
-        <div className="text-white opacity-60 text-2xl md:ml-1 md:w-1/2 space-y-2 font-bold top-2">
+        <div className="text-white opacity-60 text-2xl md:ml-1 md:w-1/2 space-y-2 font-bold mt-4">
           <Link to="/sparkupsummit/Leads">
-            <h2 className="text-white tracking-[1px]">
+            <h2 className="text-white tracking-[2px]">
               L<span className="text-red-500">eads</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Mentor">
-            <h2 className="text-white">
+            <h2 className="text-white tracking-[2px]">
               M<span className="text-red-500">entor</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Content">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Co<span className="text-red-500">ntent</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Creative">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Cre<span className="text-red-500">ative</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Logistics">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Logi<span className="text-red-500">stics</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Marketing">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Marke<span className="text-red-500">ting</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/SocialMedia">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Social<span className="text-red-500"> Media</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Sponsorship">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Spons<span className="text-red-500">orship</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Production">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Prod<span className="text-red-500">uction</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Graphics">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Gra<span className="text-red-500">phics</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Finance">
-            <h2>
+            <h2 className="text-white tracking-[2px]">
               Fi<span className="text-red-500">nance</span>
             </h2>
           </Link>
           <Link to="/sparkupsummit/Web">
-            <h2 className="text-white">
+            <h2 className="text-white  tracking-[2px]">
               W<span className="text-red-500">eb</span>
             </h2>
           </Link>
