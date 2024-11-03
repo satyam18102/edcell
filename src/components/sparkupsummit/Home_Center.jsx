@@ -49,7 +49,7 @@ const Card = () => {
 
       {/* Text below the images */}
       <div
-        className="text-center font-anton text-4xl lg:text-6xl text-white my-4"
+        className="text-center font-anton text-4xl lg:text-6xl text-white my-1"
       >
         SPARK UP SUMMIT
       </div>
