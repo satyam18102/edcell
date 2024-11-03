@@ -79,7 +79,7 @@ function App() {
             }
           />
           <Route 
-          path="/sparkupsummi"
+          path="/sparkupsummit"
           element={<SparkUpSummit/>}
           />
           <Route path="/sparkupsummit/Web" element={<Web />} />
