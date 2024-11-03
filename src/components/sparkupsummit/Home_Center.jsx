@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import gunImage from "/sparkupsummit/assets/home_center/shot2.png";
-import gun1Image from "/sparkupsummit/assets/home_center/shot1.png";
-import maskImage from "/sparkupsummit/assets/home_center/mask4.png";
+import gunImage from "/sparkupsummit/images/home_center/shot2.png";
+import gun1Image from "/sparkupsummit/images/home_center/shot1.png";
+import maskImage from "/sparkupsummit/images/home_center/mask4.png";
 
 const Card = () => {
   const [rotation, setRotation] = useState(0);
