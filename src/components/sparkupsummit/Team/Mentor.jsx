@@ -6,31 +6,31 @@ const members = [
     name: "Armaan Biswal",
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/professor.jpeg",
+    img2: "/sparkupsummit/images/members/armaan.jpg",
   },
   {
     name: "Sailendra Biswal",
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/piyush.jpg",
+    img2: "/sparkupsummit/images/members/sailendra.jpg",
   },
   {
     name: "Akankhya Sahoo",
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/agasty.JPG",
+    img2: "/sparkupsummit/images/members/akankhya.jpg",
   },
   {
     name: "Girish Bharadwaj",
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/agasty.JPG",
+    img2: "/sparkupsummit/images/members/girish.jpg",
   },
   {
     name: "Prayash Nayak",
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/agasty.JPG",
+    img2: "/sparkupsummit/images/members/prayash.jpg",
   },
 ];
 
