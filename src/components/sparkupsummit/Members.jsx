@@ -75,9 +75,8 @@ const Members = () => {
           </Link>
         </div>
       </div>
-      <div classname="flex justify-center items-center p-2">
-        <p classname="text-white font-anton text-xl">Click above words to explore Team</p>
-      </div>
+      <div className="flex justify-center items-center  bg-transparent flex-wrap">
+        <h3  className="font-anton text-white text-xl shadow-red-400 shadow-sm">Click above words to explore Team</h3>
     </div>
   );
 };
