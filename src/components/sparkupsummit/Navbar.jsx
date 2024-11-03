@@ -97,7 +97,7 @@ const Navbar = () => {
             className="absolute top-0 left-0 h-screen w-full z-40 md:hidden"
           >
             <ul className="flex flex-col items-center justify-center h-full space-y-6">
-              {["Home", "About", "Events", "Glims", "Team", "Contact"].map(
+              {["Home", "About", "Events", "Glimpse", "Team", "Contact"].map(
                 (item, idx) => (
                   <li key={idx}>
                     <Link
