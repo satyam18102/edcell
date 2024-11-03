@@ -26,6 +26,7 @@ import Creative from "./components/sparkupsummit/Team/Creative";
 import Sponsorship from "./components/sparkupsummit/Team/Sponsorship";
 import Logistics from "./components/sparkupsummit/Team/Logistics";
 import Web from "./components/sparkupsummit/Team/Web"
+import Mentor from "./components/sparkupsummit/Team/Mentor"
 
 
 function App() {
@@ -93,6 +94,7 @@ function App() {
             <Route path="/sparkupsummit/Creative" element={<Creative />} />
             <Route path="/sparkupsummit/Sponsorship" element={<Sponsorship />} />
             <Route path="/sparkupsummit/Logistics" element={<Logistics />} />
+            <Route path="/sparkupsummit/Mentor" element={<Mentor/>}/>
           <Route
             path="/members"
             element={
