@@ -21,7 +21,7 @@ const Card = () => {
   }, []);
 
   return (
-    <div className="bg-black max-h-screen  w-full flex flex-col justify-start items-center text-white p-2">
+    <div className="bg-black max-h-screen  w-full flex flex-col justify-start items-center text-white p-2 mt-[-10px]">
       <img
         src={maskImage}
         alt="Mask"
