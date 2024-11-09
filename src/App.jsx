@@ -87,7 +87,7 @@ function App() {
           />
           <Route 
           path="/sparkupsummit"
-          element={<SparkUpSummit screenloading2={screenloading2}/>}
+          element={<SparkUpSummit screenLoading2={screenLoading2}/>}
           />
           <Route path="/sparkupsummit/Web" element={<Web />} />
             <Route path="/sparkupsummit/SocialMedia" element={<SocialMedia />} />
