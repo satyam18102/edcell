@@ -66,7 +66,7 @@ const Events = () => {
       />      
     <div className="w-3/4 m-auto" id="events">
       <div className="mt-20">
-        <Slider {...settings}>
+{/*         <Slider {...settings}> */}
           {data.map((d, index) => (
             <div key={index} className="bg-black  h-auto text-black rounded-xl border-2 border-white">
               <div className="w-70  flex justify-center items-center rounded-t-xl">
@@ -84,7 +84,7 @@ const Events = () => {
               </div>
             </div>
           ))}
-        </Slider>
+{/*         </Slider> */}
       </div>
     </div>
     </>
