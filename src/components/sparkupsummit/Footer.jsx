@@ -74,7 +74,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <br />
+{/*         <br /> */}
 {/*         <div
           style={{ fontFamily: "serif" }}
           className="text-center font-bold text-[#f6c572]"
