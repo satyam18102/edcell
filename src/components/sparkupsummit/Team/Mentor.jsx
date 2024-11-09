@@ -3,6 +3,12 @@ import "../Member.css"; // Import the CSS file
 
 const members = [
   {
+    name: "Girish Bharadwaj",
+    year: "4th year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/girish.jpg",
+  },
+  {
     name: "Armaan Biswal",
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
@@ -19,12 +25,6 @@ const members = [
     year: "4th year",
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/akankhya.jpg",
-  },
-  {
-    name: "Girish Bharadwaj",
-    year: "4th year",
-    img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/girish.jpg",
   },
   {
     name: "Prayash Nayak",
