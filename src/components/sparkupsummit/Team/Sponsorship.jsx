@@ -3,21 +3,28 @@ import "../Member.css"; // Import the CSS file
 
 const members = [
   {
+    name: "Piush Praharaj",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/piush2.JPG",
+  },
+  {
     name: "Shaswat Tripathi",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/saswatcrop.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/saswatcrop.JPG",
   },
   {
     name: "Shubham Kumar",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/shubham.jpg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/shubham.jpg",
   },
  
 ];
 
 const Sponsorship = () => {
+  window.scrollTo(0,0)
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
