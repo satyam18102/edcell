@@ -37,11 +37,7 @@ function App() {
     }, 2488);
   }, []);
   const [screenLoading2, setScreenLoading2] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setScreenLoading2(false);
-    }, 7000);
-  }, []);
+  
   return (
     <>
         <Router>
