@@ -17,7 +17,7 @@ const members = [
   {
     name: "Jaydeep Dash",
     year: "2nd year",
-    img: "/sparkupsummitimages/members/m7.jpeg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/icon.png",
   },
   {
