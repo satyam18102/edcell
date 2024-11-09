@@ -11,7 +11,7 @@ import Footer from "./sparkupsummit/Footer";
 import Members from "./sparkupsummit/Members";
 import Sponsors from "./sparkupsummit/Sponsors"
 
-export default function SparkUpSummit(screenloading2) {
+export default function SparkUpSummit(screenLoading2) {
     const [screenLoading, setScreenLoading] = useState(true);
 
     useEffect(() => {
@@ -23,7 +23,7 @@ export default function SparkUpSummit(screenloading2) {
 
     return (
         <>
-            {(screenLoading)
+            {(screenLoading2)
                 ? <Loader/>
                 : <div className="font-anton overflow-x-hidden">
                     <Navbar />
