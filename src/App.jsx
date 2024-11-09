@@ -36,6 +36,12 @@ function App() {
       setScreenLoading(false);
     }, 2488);
   }, []);
+  const [screenLoading2, setScreenLoading2] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setScreenLoading2(false);
+    }, 7000);
+  }, []);
   return (
     <>
         <Router>
@@ -81,7 +87,7 @@ function App() {
           />
           <Route 
           path="/sparkupsummit"
-          element={<SparkUpSummit/>}
+          element={<SparkUpSummit screenloading2={screenloading2}/>}
           />
           <Route path="/sparkupsummit/Web" element={<Web />} />
             <Route path="/sparkupsummit/SocialMedia" element={<SocialMedia />} />
