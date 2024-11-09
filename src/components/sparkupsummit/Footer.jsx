@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
         </div>
         <br />
-        <div
+{/*         <div
           style={{ fontFamily: "serif" }}
           className="text-center font-bold text-[#f6c572]"
         >
@@ -114,7 +114,7 @@ const Footer = () => {
           >
             <span className="text-white underline">Satyam</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
