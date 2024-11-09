@@ -29,8 +29,9 @@ const members = [
 ];
 
 const Content = () => {
+  window.scrollTo(0,0)
   return (
-    <div className="bg-black font-anton overflow-x-hidden">
+    <div className="bg-black font-anton overflow-x-hidden lg:overflow-y-hidden">
       <h1
         className="text-center p-5 text-white text-7xl font-bold font-redressed lg:text-8xl"
         id="team-text"
