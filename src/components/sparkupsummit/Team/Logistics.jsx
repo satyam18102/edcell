@@ -17,7 +17,7 @@ const members = [
 ];
 
 const Logistics = () => {
-  window.scroll(0,0)
+  window.scrollTo(0,0)
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
