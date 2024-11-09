@@ -5,18 +5,19 @@ const members = [
   {
     name: "Akash Kumar",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/icon.png",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   {
     name: "Puja Mahato",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/puja2.jpg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/puja2.jpg",
   },
 ];
 
 const SocialMedia = () => {
+  window.scrollTo(0,0)
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
