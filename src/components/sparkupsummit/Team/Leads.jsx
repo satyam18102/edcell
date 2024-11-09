@@ -3,50 +3,68 @@ import "../Member.css"; // Import the CSS file
 
 const members = [
   {
-    name: "Piyush",
-    year: "3rd year",
+    name: "Shaswat Tripathi",
+    year: "Organizer",
     img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/piyush.jpg",
+    img2: "assets/images/members/saswatcrop.jpg",
   },
   {
-    name: "Rahul",
-    year: "3rd year",
+    name: "Shubham Srivastav",
+    year: "Co-Organizer",
     img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
+    img2: "assets/images/members/.JPG",
   },
   {
-    name: "Ayushman",
-    year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
-  },
-  {
-    name: "Satyam",
-    year: "3rd year",
+    name: "Ayush Singh",
+    year: "Content Team",
     img: "assets/images/members/m7.jpeg",
     img2: "assets/images/members/agasty.JPG",
   },
   {
-    name: "Satyam",
-    year: "3rd year",
+    name: "Priyanshi Dubey",
+    year: "PR & Marketing",
     img: "assets/images/members/m7.jpeg",
     img2: "assets/images/members/agasty.JPG",
   },
   {
-    name: "Satyam",
-    year: "3rd year",
+    name: "Piush Praharaj",
+    year: "Sponsorship",
     img: "assets/images/members/m7.jpeg",
     img2: "assets/images/members/agasty.JPG",
   },
   {
-    name: "Satyam",
-    year: "3rd year",
+    name: "Puja Mahato",
+    year: "Social Media",
     img: "assets/images/members/m7.jpeg",
     img2: "assets/images/members/agasty.JPG",
   },
   {
-    name: "Satyam",
-    year: "3rd year",
+    name: "Gomesh Aggrawal",
+    year: "Graphics",
+    img: "assets/images/members/m7.jpeg",
+    img2: "assets/images/members/agasty.JPG",
+  },
+  {
+    name: "Anmol Singh",
+    year: "Logistics",
+    img: "assets/images/members/m7.jpeg",
+    img2: "assets/images/members/agasty.JPG",
+  },
+   {
+    name: "M.Flora",
+    year: "Creative & Technical",
+    img: "assets/images/members/m7.jpeg",
+    img2: "assets/images/members/agasty.JPG",
+  },
+   {
+    name: "Harish Bandia",
+    year: "Production",
+    img: "assets/images/members/m7.jpeg",
+    img2: "assets/images/members/agasty.JPG",
+  },
+   {
+    name: "Ayushman Shaw",
+    year: "Web",
     img: "assets/images/members/m7.jpeg",
     img2: "assets/images/members/agasty.JPG",
   },
@@ -54,6 +72,7 @@ const members = [
 ];
 
 const Leads = () => {
+  window.scrollTo(0,0)
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       {/* <h1 className="text-white text-center">WEB TEAM</h1> */}
