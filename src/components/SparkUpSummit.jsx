@@ -12,7 +12,7 @@ import Members from "./sparkupsummit/Members";
 import Sponsors from "./sparkupsummit/Sponsors"
 
 export default function SparkUpSummit({screenLoading2,setScreenLoading2}) {
-    const [screenLoading, setScreenLoading] = useState(true);
+    // const [screenLoading, setScreenLoading] = useState(true);
 
     useEffect(() => {
 
