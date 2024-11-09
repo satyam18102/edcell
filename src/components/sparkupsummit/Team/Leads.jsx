@@ -76,6 +76,12 @@ const Leads = () => {
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       {/* <h1 className="text-white text-center">WEB TEAM</h1> */}
+       <h1
+        className="text-center p-5 text-white text-7xl font-bold font-redressed lg:text-8xl"
+        id="team-text"
+      >
+        Lea<span className="text-red-500">ds</span>
+      </h1>{" "}
       <div className="grid-container">
         {members.map((member, index) => (
           <div className="flip-card" key={index}>
