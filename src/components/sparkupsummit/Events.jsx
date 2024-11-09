@@ -64,7 +64,7 @@ const Events = () => {
         className="mb-6 flex justify-center m-auto"
         src="/sparkupsummit/images/TEAM/2.png"
       />      
-    <div className="w-3/4 m-auto" id="events">
+    <div className="w-full m-auto" id="events">
       <div className="mt-20 flex flex-wrap gap-5 justify-center">
 {/*         <Slider {...settings}> */}
           {data.map((d, index) => (
