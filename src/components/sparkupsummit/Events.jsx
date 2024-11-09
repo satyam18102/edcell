@@ -68,7 +68,7 @@ const Events = () => {
       <div className="mt-20 flex flex-wrap">
 {/*         <Slider {...settings}> */}
           {data.map((d, index) => (
-            <div key={index} className="bg-black  h-auto text-black rounded-xl border-2 border-white">
+            <div key={index} className="bg-black w-[300px] h-auto text-black rounded-xl border-2 border-white">
               <div className="w-70  flex justify-center items-center rounded-t-xl">
                 <img src={d.posterUrl} alt={`Event ${index + 1}`} className="h-70 w-70 rounded-xl" />
               </div>
