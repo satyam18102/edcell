@@ -5,26 +5,26 @@ const members = [
   {
     name: "Gomesh Agarwal",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/gomesh.jpg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/team/gomesh.jpg",
   },
   {
     name: "Sneha Sen",
     year: "2nd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/icon.png",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   {
     name: "Jaydeep Dash",
     year: "2nd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/icon.png",
+    img: "/sparkupsummitimages/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   {
     name: "Bhimesh",
     year: "2nd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/icon.png",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
 ];
 
