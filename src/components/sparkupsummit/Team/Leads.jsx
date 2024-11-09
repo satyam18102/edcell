@@ -68,7 +68,7 @@ const members = [
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/agasty.JPG",
   },
-  // Add more members here if needed
+  
 ];
 
 const Leads = () => {
