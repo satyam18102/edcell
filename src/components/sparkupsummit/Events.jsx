@@ -25,23 +25,23 @@ const Events = () => {
 
   const data = [
     {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
+      posterUrl: "/sparkupsummit/images/event_photo/1.png",
       url: "/sparkupsummit/events/ideathon.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
+      posterUrl: "/sparkupsummit/images/event_photo/2.png",
       url: "/sparkupsummit/events/build-a-thon.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
+      posterUrl: "/sparkupsummit/images/event_photo/3.png",
       url: "sparkupsummit/events/ad_mad_show.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
+      posterUrl: "/sparkupsummit/images/event_photo/4.png",
       url: "/sparkupsummit/events/panel_discussion.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
+      posterUrl: "/sparkupsummit/images/event_photo/5.png",
       url: "/sparkupsummit/events/start_up_pitch.html",
     },
     {
