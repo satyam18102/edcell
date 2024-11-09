@@ -54,8 +54,8 @@ const members = [
 ];
 
 const Creative = () => {
+  window.scrollTo(0,0)
   return (
-    window.scrollTo(0,0)
     <div className="bg-black font-anton overflow-x-hidden">
       {/* <h1 className="text-white text-center">Creative TEAM</h1> */}
       <div className="grid-container">
