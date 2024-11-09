@@ -42,7 +42,7 @@ const members = [
     name: "Gomesh Aggrawal",
     year: "Graphics",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/gomesh.jpg",
+    img2: "/team/gomesh.jpg",
   },
   {
     name: "Anmol Singh",
