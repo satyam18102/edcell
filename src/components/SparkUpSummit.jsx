@@ -11,7 +11,7 @@ import Footer from "./sparkupsummit/Footer";
 import Members from "./sparkupsummit/Members";
 import Sponsors from "./sparkupsummit/Sponsors"
 
-export default function SparkUpSummit() {
+export default function SparkUpSummit(screenloading2) {
     const [screenLoading, setScreenLoading] = useState(true);
 
     useEffect(() => {
