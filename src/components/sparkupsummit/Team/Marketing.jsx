@@ -5,24 +5,25 @@ const members = [
   {
     name:"Priyanshi Dubey",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/priyanshi2.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/priyanshi2.JPG",
   },
   {
     name: "M.Flora",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/flora.jpg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/flora.jpg",
   },
   {
     name: "Ritu Priya",
     year: "2nd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/icon.png",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
 ];
 
 const Marketing = () => {
+  window.scrollTo(0,0)
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
