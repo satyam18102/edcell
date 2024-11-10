@@ -69,7 +69,7 @@ export default function Highlights() {
   };
   return (
     <div className=" flex justify-start flex-col w-screen p-3 bg-contain bg-[#00000062] bg-blend-darken" id="glimpse">
-      <div className="w-screen flex flex-col justify-center items-center p-2 ">
+      <div className="w-screen flex flex-col justify-center items-center p-2 ml-5 ">
        <img
             className="mb-6 flex justify-center m-auto"
             src="/sparkupsummit/images/TEAM/4.png"
