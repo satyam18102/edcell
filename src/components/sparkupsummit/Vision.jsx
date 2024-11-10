@@ -31,7 +31,7 @@ export const Vision = () => {
             style={{
               boxShadow: "-9px 9px 18px rgba(0, 0, 0, 0.9)",
             }}
-            className="rounded-3xl w-[200px] h-[300px] lg:w-[420px] lg:h-[325px] transform-image"
+            className="rounded-3xl w-auto h-[300px] lg:w-[420px] lg:h-[325px] transform-image"
             width="560"
             height="315"
             src="/sparkupsummit/images/mascot.png"
