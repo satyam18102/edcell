@@ -34,7 +34,7 @@ export const Vision = () => {
             className="rounded-3xl w-[300px] h-[200px] lg:w-[560px] lg:h-[315px] transform-image"
             width="560"
             height="315"
-            src="sparkupsummit/images/vision2.png"
+            src="/sparkupsummit/images/mascot.png"
             alt="Vision"
           />
         </div>
