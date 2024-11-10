@@ -57,7 +57,7 @@ const Events = () => {
   return (
     <>
       <img
-        className="mb-6 flex justify-center m-auto"
+        className="mb-6 flex justify-center m-auto ml-5"
         src="/sparkupsummit/images/TEAM/2.png"
       />      
     <div className="w-full m-auto" id="events">
