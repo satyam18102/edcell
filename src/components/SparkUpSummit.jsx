@@ -28,9 +28,10 @@ export default function SparkUpSummit({screenLoading2,setScreenLoading2}) {
                 : <div className="font-anton overflow-x-hidden">
                     <Navbar />
                     <Home />
-                    <br />
                     <About />
-                    <br />
+                     <br />
+                      <br />
+                      <br />
                     <Vision />
                     <br />
                     <br />
