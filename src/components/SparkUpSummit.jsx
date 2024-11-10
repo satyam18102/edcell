@@ -41,7 +41,9 @@ export default function SparkUpSummit({screenLoading2,setScreenLoading2}) {
                     <Sponsors />
                     <Members />
                     <br />
+                    <br />
                     <FAQ />
+                    <br />
                     <br />
                     <Footer />
                 </div>
