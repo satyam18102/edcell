@@ -25,36 +25,32 @@ const Events = () => {
 
   const data = [
     {
-      posterUrl: "/sparkupsummit/images/event_photo/1.png",
+      posterUrl: "/sparkupsummit/images/events_photo/1.png",
       url: "/sparkupsummit/events/ideathon.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/event_photo/2.png",
+      posterUrl: "/sparkupsummit/images/events_photo/3.png",
       url: "/sparkupsummit/events/build-a-thon.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/event_photo/3.png",
+      posterUrl: "/sparkupsummit/images/events_photo/6.png",
       url: "sparkupsummit/events/ad_mad_show.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/event_photo/4.png",
+      posterUrl: "/sparkupsummit/images/events_photo/2.png",
       url: "/sparkupsummit/events/panel_discussion.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/event_photo/5.png",
+      posterUrl: "/sparkupsummit/images/events_photo/4.png",
       url: "/sparkupsummit/events/start_up_pitch.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
+      posterUrl: "/sparkupsummit/images/events_photo/5.png",
       url: "/sparkupsummit/events/case_study.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
+      posterUrl: "/sparkupsummit/images/events_photo/7.png",
       url: "/sparkupsummit/events/bidding_war.html",
-    },
-    {
-      posterUrl: "/sparkupsummit/images/img2.jpg",
-      url: "/sparkupsummit/events/the_sales_challenge.html",
     },
   ];
 
