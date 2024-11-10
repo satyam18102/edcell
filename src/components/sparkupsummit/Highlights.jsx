@@ -96,6 +96,7 @@ export default function Highlights() {
           {glim.map((item) => (<Glimpse image={item}></Glimpse>))}
         </Slider>
       </div>
+      <br></br>
       <div className="flex flex-col items-center p-2 ">
         <img
           className="mb-6 flex justify-center m-auto"
