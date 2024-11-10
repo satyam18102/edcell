@@ -1,6 +1,6 @@
 import React from "react";
 import ParticlesComponent from "./Particles"; // Import the Particles component
-import Home_Center from "./Home_center";
+import Home_Center from "./Home_Center";
 import "./Home.css"; // Make sure to update your CSS
 
 const Home = () => {
