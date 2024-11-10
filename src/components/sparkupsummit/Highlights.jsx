@@ -96,12 +96,13 @@ export default function Highlights() {
           {glim.map((item) => (<Glimpse image={item}></Glimpse>))}
         </Slider>
       </div>
-      <br></br>
+      <br></br><br></br>
       <div className="flex flex-col items-center p-2 ">
         <img
           className="mb-6 flex justify-center m-auto"
           src="/sparkupsummit/images/TEAM/5.png"
         />
+        <br></br>
         <div className="grid-cols-2 grid gap-6 md:flex md:gap-12 md:mt-8 ">
           {speakers.map((item) => (<Speaker image={item.image} name={item.name} position={item.position} minus={(item.key % 2 == 0) ? "rotate-3" : "-rotate-3"} />))}
         </div>
