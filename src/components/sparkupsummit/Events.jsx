@@ -61,7 +61,7 @@ const Events = () => {
         src="/sparkupsummit/images/TEAM/2.png"
       />      
     <div className="w-full m-auto" id="events">
-      <div className="mt-20 flex flex-wrap gap-5 justify-center">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
 {/*         <Slider {...settings}> */}
           {data.map((d, index) => (
             <div key={index} className="bg-black w-[290px] h-auto text-black rounded-xl border-2 border-white shadow-sm shadow-red">
