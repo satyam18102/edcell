@@ -3,16 +3,16 @@ import "../Member.css"; // Import the CSS file
 
 const members = [
   {
-    name: "Akash Kumar",
-    year: "3rd year",
-    img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.png",
-  },
-  {
     name: "Puja Mahato",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/puja2.jpg",
+  },
+  {
+    name: "Akash Kumar",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/akash.jpg",
   },
 ];
 
