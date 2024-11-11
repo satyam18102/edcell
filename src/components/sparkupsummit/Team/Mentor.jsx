@@ -35,13 +35,14 @@ const members = [
 ];
 
 const Mentor = () => {
+  window.scrollTo(0,0);
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
         className="text-center p-5 text-white text-7xl font-bold font-redressed lg:text-8xl"
         id="team-text"
       >
-        M&nbsp;<span className="text-red-500">entor</span>
+        M<span className="text-red-500">entor</span>
       </h1>{" "}
       <div className="grid-container">
         {members.map((member, index) => (
