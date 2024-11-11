@@ -18,7 +18,7 @@ const members = [
     name: "Ayushman Shaw",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/agasty.JPG",
+    img2: "/sparkupsummit/images/members/ayushman.jpeg",
   },
   {
     name: "Rahul Kumar Singh",
@@ -30,7 +30,7 @@ const members = [
     name: "Satyam Sinha",
     year: "2nd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/agasty.JPG",
+    img2: "/sparkupsummit/images/members/satyam.jpeg",
   },
 ];
 
