@@ -30,7 +30,7 @@ const members = [
     name: "Piush Praharaj",
     year: "Sponsorship",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/piush2.JPG",
+    img2: "/sparkupsummit/images/members/piush2.jpg",
   },
   {
     name: "Puja Mahato",
@@ -60,13 +60,13 @@ const members = [
     name: "Harish Bandia",
     year: "Production",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/agasty.JPG",
+    img2: "/sparkupsummit/images/members/harish.jpg",
   },
    {
     name: "Ayushman Shaw",
     year: "Web",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/agasty.JPG",
+    img2: "/sparkupsummit/images/members/ayushman.jpeg",
   },
   
 ];
