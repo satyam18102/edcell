@@ -52,7 +52,7 @@ const Card = () => {
         id="mask-image"
         src={maskImage}
         alt="Mask"
-        className="w-[700px] h-[450px] mt-[20px] md:h-[550px] lg:h-[680px] xl:h-[680px] mb-8 shadow-lg transition-transform duration-200 ease-out"
+        className=" h-[450px] mt-[20px] md:h-[550px] lg:h-[680px] xl:h-[680px] mb-8 shadow-lg transition-transform duration-200 ease-out"
         style={{
           transform: `translate(${tilt.x}px, ${tilt.y}px)`,
           transition: "transform 0.1s ease-out",
