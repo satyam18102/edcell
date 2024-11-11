@@ -12,13 +12,13 @@ const members = [
     name: "Sneha Sen",
     year: "2nd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.png",
+    img2: "/sparkupsummit/images/members/sneha.jpg",
   },
   {
     name: "Jaydeep Dash",
     year: "2nd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.png",
+    img2: "/sparkupsummit/images/members/jaydeep.jpg",
   },
   {
     name: "Bhimesh",
@@ -29,6 +29,7 @@ const members = [
 ];
 
 const Graphics = () => {
+  window.scrollTo(0,0);
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
