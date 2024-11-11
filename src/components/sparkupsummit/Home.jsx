@@ -5,7 +5,7 @@ import "./Home.css"; // Make sure to update your CSS
 
 const Home = () => {
   return (
-    <div className="bg-black sm:mb-4 md:mb-32">
+    <div className="bg-black sm:mb-2 md:mb-32">
       <div id="home" className="home-container">
         <div
           className={window.innerWidth < 400 ? "flex-none" : "first-container"}
