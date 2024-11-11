@@ -35,6 +35,7 @@ const members = [
 ];
 
 const Web = () => {
+  window.scrollTo(0,0);
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
