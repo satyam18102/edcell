@@ -3,52 +3,70 @@ import "../Member.css"; // Import the CSS file
 
 const members = [
   {
-    name: "Piyush",
+    name: "M.Flora",
     year: "3rd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/piyush.jpg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/flora.jpg",
   },
   {
-    name: "Rahul",
+    name: "Alisha Singh",
     year: "3rd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.jpg",
   },
   {
-    name: "Ayushman",
+    name: "Aditi Dubey",
     year: "3rd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.jpg",
   },
   {
-    name: "Satyam",
+    name: "Priyanshi Dubey",
     year: "3rd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/priyanshi2.JPG",
   },
   {
-    name: "Satyam",
+    name: "Puja Mahato",
     year: "3rd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/puja2.jpg",
   },
   {
-    name: "Satyam",
-    year: "3rd year",
+    name: "Sneha Sen",
+    year: "2nd year",
     img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/agasty.JPG",
+    img2: "sparkupsummit/images/members/sneha.jpg",
   },
   {
-    name: "Satyam",
+    name: "Anshu Mandal",
     year: "3rd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.jpg",
   },
   {
-    name: "Satyam",
+    name: "Ayushman Pani",
     year: "3rd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.jpg",
+  },
+  {
+    name: "Ritu Priya",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/ritupriya.jpg",
+  },
+  {
+    name: "Megha Patro",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/megha.jpg",
+  },
+  {
+    name: "Shubham Pani",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.jpg",
   },
   // Add more members here if needed
 ];
@@ -58,6 +76,12 @@ const Creative = () => {
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       {/* <h1 className="text-white text-center">Creative TEAM</h1> */}
+      <h1
+        className="text-center p-5 text-white text-7xl font-bold font-redressed lg:text-8xl"
+        id="team-text"
+      >
+        Crea<span className="text-red-500">tive</span>
+      </h1>{" "}
       <div className="grid-container">
         {members.map((member, index) => (
           <div className="flip-card" key={index}>
