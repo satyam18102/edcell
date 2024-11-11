@@ -12,13 +12,13 @@ const members = [
     name: "Alisha Singh",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.jpg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   {
     name: "Aditi Dubey",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.jpg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   {
     name: "Priyanshi Dubey",
@@ -35,20 +35,20 @@ const members = [
   {
     name: "Sneha Sen",
     year: "2nd year",
-    img: "sparkupsummit/images/members/m7.jpeg",
-    img2: "sparkupsummit/images/members/sneha.jpg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/sneha.jpg",
   },
   {
     name: "Anshu Mandal",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.jpg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   {
     name: "Ayushman Pani",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.jpg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   {
     name: "Ritu Priya",
@@ -66,7 +66,7 @@ const members = [
     name: "Shubham Pani",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.jpg",
+    img2: "/sparkupsummit/images/members/icon.png",
   },
   // Add more members here if needed
 ];
