@@ -18,7 +18,7 @@ const members = [
     name: "Ritu Priya",
     year: "2nd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.png",
+    img2: "/sparkupsummit/images/members/ritupriya.jpg",
   },
 ];
 
