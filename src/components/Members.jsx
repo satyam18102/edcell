@@ -79,22 +79,22 @@ const teamstudent = [
     {
         name: "Sailendra Biswal",
         about: "4th Year",
-        image: ""
+        image: "/sparkupsummit/images/members/sailendra.jpg"
     },
     {
         name: "Armaan Biswal",
         about: "4th Year",
-        image: ""
+        image: "/sparkupsummit/images/members/armaan.jpg"
     },
     {
         name: "Prayash Nayak",
         about: "4th Year",
-        image: ""
+        image: "/sparkupsummit/images/members/prayash.JPG"
     },
     {
         name: "Akankhsya",
         about: "4th Year",
-        image: ""
+        image: "/sparkupsummit/images/members/akankhya.jpg"
     },
     
     {
@@ -110,7 +110,7 @@ const teamstudent = [
     {
         name: "Piush Praharaj",
         about: "3rd Year",
-        image: "/team/piush2.JPG"
+        image: "/sparkupsummit/images/members/piush2.jpg"
     },
     {
         name: "Ayush Singh",
