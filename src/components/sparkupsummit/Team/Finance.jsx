@@ -3,52 +3,22 @@ import "../Member.css"; // Import the CSS file
 
 const members = [
   {
-    name: "Piyush",
+    name: "Shaswat Tripathi",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/piyush.jpg",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/saswatcrop.JPG",
   },
   {
-    name: "Rahul",
+    name: "Shubham Srivastav",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/shubham.jpg",
   },
   {
-    name: "Ayushman",
+    name: "Piush Praharaj",
     year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
-  },
-  {
-    name: "Satyam",
-    year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
-  },
-  {
-    name: "Satyam",
-    year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
-  },
-  {
-    name: "Satyam",
-    year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
-  },
-  {
-    name: "Satyam",
-    year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
-  },
-  {
-    name: "Satyam",
-    year: "3rd year",
-    img: "assets/images/members/m7.jpeg",
-    img2: "assets/images/members/agasty.JPG",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/piush2.jpg",
   },
   // Add more members here if needed
 ];
