@@ -33,7 +33,7 @@ export const About = () => {
             visionaries, creators, and changemakers to unite and spark the next
             wave of ideas that will shape the future. At Spark Up, bold
             startups, cutting-edge technology, and fresh perspectives take
-            center stage. Here, innovators showcase their brilliance, engage in
+            centre stage. Here, innovators showcase their brilliance, engage in
             inspiring discussions, and connect with industry leaders and
             investors eager to back the next big thing. Whether you're pitching
             your idea, networking, or learning from the best, Spark Up will fuel
