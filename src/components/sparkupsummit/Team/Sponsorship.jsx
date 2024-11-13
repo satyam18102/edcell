@@ -76,7 +76,7 @@ const Sponsorship = () => {
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       <h1
-        className="text-center p-5 text-white text-7xl font-bold font-redressed lg:text-8xl"
+        className="text-center p-5 text-white text-5xl md:text-7xl font-bold font-redressed lg:text-8xl"
         id="team-text"
       >
         Sponsor<span className="text-red-500">ship</span>
