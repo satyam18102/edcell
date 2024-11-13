@@ -32,7 +32,7 @@ const Finance = () => {
         className="text-center p-5 text-white text-7xl font-bold font-redressed lg:text-8xl"
         id="team-text"
       >
-        Fina&nbsp;<span className="text-red-500">nce</span>
+        Fina<span className="text-red-500">nce</span>
       </h1>{" "}
       <div className="grid-container">
         {members.map((member, index) => (
