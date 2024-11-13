@@ -24,6 +24,7 @@ const members = [
 ];
 
 const Finance = () => {
+  window.scrollTo(0,0);
   return (
     <div className="bg-black font-anton overflow-x-hidden">
       {/* <h1 className="text-white text-center">Finance TEAM</h1> */}
@@ -31,7 +32,7 @@ const Finance = () => {
         className="text-center p-5 text-white text-7xl font-bold font-redressed lg:text-8xl"
         id="team-text"
       >
-        Finance&nbsp;<span className="text-red-500">Team</span>
+        Fina&nbsp;<span className="text-red-500">nce</span>
       </h1>{" "}
       <div className="grid-container">
         {members.map((member, index) => (
