@@ -20,6 +20,31 @@ const members = [
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/ritupriya.jpg",
   },
+  {
+    name: "Puja Mahato",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/puja2.jpg",
+  },
+  {
+    name: "Sneha Sen",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/sneha.jpg",
+  },
+  {
+    name: "Anshu Mandal",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/anshu.jpeg",
+  },
+  {
+    name: "Ayushman Pani",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
+  },
+  
 ];
 
 const Marketing = () => {
