@@ -14,6 +14,18 @@ const members = [
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/akash.jpg",
   },
+  {
+    name: "Shubham Pani",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
+  },
+  {
+    name: "Megha Patro",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/megha.jpg",
+  },
 ];
 
 const SocialMedia = () => {
