@@ -15,10 +15,58 @@ const members = [
     img2: "/sparkupsummit/images/members/saswatcrop.JPG",
   },
   {
-    name: "Shubham Kumar",
+    name: "Shubham Srivastav",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/shubham.jpg",
+  },
+  {
+    name: "Shubham Pani",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
+  },
+  {
+    name: "M.Flora",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/flora.jpg",
+  },
+  {
+    name: "Priyanshi Dubey",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/priyanshi2.JPG",
+  },
+  {
+    name: "Aditi Dubey",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/aditi.jpg",
+  },
+  {
+    name: "Ritu Priya",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/ritupriya.jpg",
+  },
+  {
+    name: "Megha patro",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/megha.jpg",
+  },
+  {
+    name: "Jaydeep Dash",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/jaydeep.jpg",
+  },
+  {
+    name: "Omkarnath Mohapatra",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/omkarnath.jpg",
   },
  
 ];
