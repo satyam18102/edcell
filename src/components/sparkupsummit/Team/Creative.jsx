@@ -42,7 +42,7 @@ const members = [
     name: "Anshu Mandal",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.png",
+    img2: "/sparkupsummit/images/members/anshu.jpeg",
   },
   {
     name: "Ayushman Pani",
