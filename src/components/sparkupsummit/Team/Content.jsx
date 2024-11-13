@@ -26,6 +26,25 @@ const members = [
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/megha.jpg",
   },
+  {
+    name: "Puja Mahato",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/puja2.jpg",
+  },
+  {
+    name: "Omkarnath Mohapatra",
+    year: "2nd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/icon.png",
+  },
+   {
+    name: "Jasdeep Singh",
+    year: "1st year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/jasdeep.jpg",
+  },
+  
 ];
 
 const Content = () => {
