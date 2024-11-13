@@ -6,7 +6,7 @@ const members = [
     name: "Lavkush Solanki",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/professor.jpeg",
+    img2: "/sparkupsummit/images/members/lavkush.jpg",
   },
   {
     name: "Piyush Kumar",
