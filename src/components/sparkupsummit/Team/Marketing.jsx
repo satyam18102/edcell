@@ -50,6 +50,18 @@ const members = [
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/icon.png",
   },
+   {
+    name: "Ayush Singh",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/ayush2.jpg",
+  },
+  {
+    name: "Piyush Praharaj",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/piush2.jpg",
+  },
   {
     name: "Anubhav Poddar",
     year: "2nd year",
