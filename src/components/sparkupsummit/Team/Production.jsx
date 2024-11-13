@@ -8,6 +8,12 @@ const members = [
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/harish.jpg",
   },
+  {
+    name: "Puja Mahato",
+    year: "3rd year",
+    img: "/sparkupsummit/images/members/m7.jpeg",
+    img2: "/sparkupsummit/images/members/puja2.jpg",
+  },
 ];
 
 const Production = () => {
