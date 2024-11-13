@@ -36,7 +36,7 @@ const members = [
     name: "Omkarnath Mohapatra",
     year: "2nd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/icon.png",
+    img2: "/sparkupsummit/images/members/omkarnath.jpg",
   },
    {
     name: "Jasdeep Singh",
