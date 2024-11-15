@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="text-center lg:text-left mt-8">
             <p className="mb-2 text-2xl lg:text-3xl ">Contact Us</p>
             <p className="mb-2 text-sm lg:text-lg ">
-              Phone: +91 9861140921 | +91 9826745888
+              Phone:+91 9826745888
             </p>
             <p className="mb-4 text-sm lg:text-lg ">
               Email: edcell@silicon.ac.in
