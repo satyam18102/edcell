@@ -60,7 +60,7 @@ const Footer = () => {
               Contact Us
             </p>
             <p className="mb-2 text-sm lg:text-lg font-semibold">
-              Phone:+91 9826745888.
+              Phone:+91 9826745888
             </p>
             <p className="mb-4 text-sm lg:text-lg font-semibold">
               Email: edcell@silicon.ac.in
