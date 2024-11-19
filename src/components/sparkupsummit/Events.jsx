@@ -48,6 +48,10 @@ const Events = () => {
       posterUrl: "/sparkupsummit/images/events_photo/7.png",
       url: "/sparkupsummit/events/bidding_war.html",
     },
+    {
+      posterUrl: "/sparkupsummit/images/events_photo/5.png",
+      url: "/sparkupsummit/events/case_study.html",
+    },
 
   ];
 
