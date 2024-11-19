@@ -33,7 +33,7 @@ const Events = () => {
       url: "/sparkupsummit/events/build-a-thon.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/events_photo/6.png",
+      posterUrl: "/sparkupsummit/images/events_photo/ad_mad_show.png",
       url: "sparkupsummit/events/ad_mad_show.html",
     },
     {
@@ -41,17 +41,14 @@ const Events = () => {
       url: "/sparkupsummit/events/panel_discussion.html",
     },
     {
-      posterUrl: "/sparkupsummit/images/events_photo/4.png",
+      posterUrl: "/sparkupsummit/images/events_photo/start_up_pitch.png",
       url: "/sparkupsummit/events/start_up_pitch.html",
-    },
-    {
-      posterUrl: "/sparkupsummit/images/events_photo/5.png",
-      url: "/sparkupsummit/events/case_study.html",
     },
     {
       posterUrl: "/sparkupsummit/images/events_photo/7.png",
       url: "/sparkupsummit/events/bidding_war.html",
     },
+
   ];
 
   return (
