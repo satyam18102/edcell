@@ -50,7 +50,7 @@ const Events = () => {
     },
     {
       posterUrl: "/sparkupsummit/images/events_photo/5.png",
-      url: "/sparkupsummit/events/case_study.html",
+      url: "/sparkupsummit/events/poster_presentation.html",
     },
 
   ];
