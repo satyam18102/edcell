@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poster Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+     <link rel="icon" type="image/x-icon" href="/sparkupsummit/images/logo/SPARK COLOUR BLACK.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link your CSS file if needed -->
+  </head>
+  <body>
+    <!-- <img src="../assets/images/background.png" alt="" id="back" > -->
+    <div class="wrapper">
+      <div class="title">
+        <h1>Poster Presentation</h1>
+      </div>
+      <img
+      
+        src="/sparkupsummit/images/events_photo/5.png"
+        alt="Flip Image"
+      />
+      <h2>Description</h2>
+      <div class="desc">
+        <p>
+          The poster presentation event challenges school students to tackle real-world problems through creativity and teamwork. Each team, consisting of 4-5 members, will be given a problem statement and, within 50-60 minutes, must visually represent their solution on a blank chart using the provided materials. Afterward, teams will have 5–6 minutes to present their solution to the judges and audience.This event encourages participants to apply problem-solving skills, artistic expression, and effective communication while collaborating with teammates. 
+          <br />
+        </p>
+      </div>
+      <h2>Rules of Procedure</h2>
+      <div class="rules">
+        <h1>Eligibility Criteria:</h1>
+        <ul>
+          <li>The event is open to all school students of all grades.</li>
+          <li>Participants must form teams of 4-5 members.</li>
+        </ul>
+        <h1>Event Format:</h1>
+        <ul>
+          <li>Problem Statement: At the beginning of the event, each team will be given a problem statement. The problem will be a real-world issue or challenge that requires creative thinking and solutions.</li>
+          <li>Drawing Time: Each group will have 50-60 minutes to come up with a solution for the problem and present it visually on a blank white chart paper. You can bring canvas, pens, pencils, markers, and any other drawing materials. It is instructed that all participants should bring their own material for the poster making.</li>
+          <li>Presentation Time: After completing the drawing, each group will have 5-6 minutes to present their solution to the judges and audience.</li>
+          <li>Canvas: Participants must bring their own canvas if they choose to use it for their drawing. Canvas will not be provided by the organizers.</li>
+        </ul>
+        <h1>Rules for Presentation:</h1>
+        <ul>
+          <li>All team members must participate in the presentation. It should be a group presentation.</li>
+          <li>The presentation must be between 5 and 6 minutes in length. Teams exceeding the time limit will be penalized.</li>
+          <li>No external props (such as models, electronic devices, etc.) are allowed.</li>
+        </ul>
+      </div>
+      <h2>Guidelines</h2>
+      <div class="rules">
+        <ul>
+          <h3>1. Problem-Solving Skills:</h3>
+          <li>
+            Critically analyze the problem statement to find a feasible
+            solution.
+          </li>
+          <li>
+            Think creatively and develop innovative ideas to address real-world
+            challenges.
+          </li>
+          <h3>2. Artistic and Visual Communication Skills:</h3>
+          <li>
+            Effectively represent ideas through drawing, sketching, or
+            diagramming.
+          </li>
+          <li>
+            Use colors, charts, and symbols to enhance communication and convey
+            the message clearly.
+          </li>
+          <h3>3. Presentation Skills:</h3>
+          <li>
+            Communicate ideas clearly, confidently, and in a well-structured
+            manner.
+          </li>
+          <li>
+            Engage the audience and present ideas logically within the allotted
+            time.
+          </li>
+          <h3>4. Teamwork and Collaboration:</h3>
+          <li>
+            Collaborate efficiently and coordinate tasks within the group.
+          </li>
+          <li>
+            Ensure each team member contributes, whether in creating the visuals
+            or delivering the presentation.
+          </li>
+          <h3>5. Critical Thinking and Innovation:</h3>
+          <li>
+            Evaluate the problem from different perspectives and propose a
+            practical, original solution.
+          </li>
+        </ul>
+      </div>
+      <div class="details">
+        <h2>Details</h2>
+         <p><strong>Date:</strong> 29th Nov - 1st Dec</p>
+        <p><strong>Location:</strong> Silicon Univeristy</p>
+        <h2>Contact</h2>
+        <p>M.Flora - +91 7853888085</p>
+        <p>Subham - +91 6299337601</p>
+      </div>
+      <a href="https://forms.fillout.com/t/eWDHtD2Rx5us"><button id="registerButton">Register Now</button></a>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
