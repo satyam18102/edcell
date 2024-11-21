@@ -33,11 +33,9 @@ const members = [
     img2: "/sparkupsummit/images/members/puja2.jpg",
   },
   {
-<<<<<<< HEAD
+
     name: "Omkarnath ",
-=======
     name: "Omkarnath",
->>>>>>> 94aac49b4b4b72a13418aa5225eccade0500c7b8
     year: "2nd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/omkarnath.jpg",
