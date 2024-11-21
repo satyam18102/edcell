@@ -30,7 +30,7 @@ const members = [
     name: "Piush Praharaj",
     year: "Sponsorship",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/piush2.jpg",
+    img2: "/sparkupsummit/images/members/piush2.JPG",
   },
   {
     name: "Puja Mahato",

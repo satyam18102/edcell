@@ -87,6 +87,14 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
+/* .flip-card-back img {
+    height: 300px;
+    width: 90%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    object-fit: cover;
+} */
+
 
 
 /* Responsive for smaller screens */

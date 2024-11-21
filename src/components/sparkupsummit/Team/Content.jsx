@@ -12,7 +12,7 @@ const members = [
     name: "Piyush Praharaj",
     year: "3rd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
-    img2: "/sparkupsummit/images/members/piush2.jpg",
+    img2: "/sparkupsummit/images/members/piush2.JPG",
   },
   {
     name: "Subham Pani",
@@ -33,7 +33,7 @@ const members = [
     img2: "/sparkupsummit/images/members/puja2.jpg",
   },
   {
-    name: "Omkarnath Mohapatra",
+    name: "Omkarnath ",
     year: "2nd year",
     img: "/sparkupsummit/images/members/m7.jpeg",
     img2: "/sparkupsummit/images/members/omkarnath.jpg",
