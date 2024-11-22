@@ -16,7 +16,7 @@ export const About = () => {
             width="560"
             height="315"
             className="rounded-3xl w-[300px] h-[200px] lg:w-[560px] lg:h-[315px] md:w-[500px] md:h-[275px]"
-            src="https://www.youtube.com/embed/_InqQJRqGW4?si=LCtZYF7E6yAPXUrs"
+            src="https://www.youtube.com/embed/PVbI80dej4c?si=-xz1OYKk-si_OLiH"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -24,7 +24,7 @@ export const About = () => {
             allowFullScreen
           ></iframe>
         </div>
-
+       
         <div className="md:w-1/2 sm:text-sm md:text-lg lg:text-lg text-sm font-light w-full flex items-center justify-center text-[#DEC7A0] p-8 md:p-12">
           <p className="leading-relaxed max-w-xl">
             Welcome to the Spark Up Summit, where innovation and
