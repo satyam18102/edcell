@@ -10,6 +10,7 @@ import Events from "./sparkupsummit/Events";
 import Footer from "./sparkupsummit/Footer";
 import Members from "./sparkupsummit/Members";
 import Sponsors from "./sparkupsummit/Sponsors"
+import Guests from "./sparkupsummit/Guests"
 
 export default function SparkUpSummit({screenLoading2,setScreenLoading2}) {
     // const [screenLoading, setScreenLoading] = useState(true);
@@ -38,6 +39,7 @@ export default function SparkUpSummit({screenLoading2,setScreenLoading2}) {
                     <Events />
                     <br />
                     <br />
+                    <Guests/>
                     <Highlights />
                     <Sponsors />
                     <Members />
