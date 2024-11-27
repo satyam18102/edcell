@@ -3,12 +3,12 @@ const guests=[
     {
         name:'Prashant Hota',
         image:'/sparkupsummit/images/prashant_hota.jpg',
-        position:'President & Group Head Jindal Steel & Power',
+        position:'President & Group Head,   Jindal Steel & Power',
     },
     {
         name:'Sandeep Jain',
         image:'/sparkupsummit/images/sandeep_jain.jpg',
-        position:'Founder & CEO  GeekForGeeks',
+        position:'Founder & CEO,  GeekForGeeks',
     }
 ]
 
