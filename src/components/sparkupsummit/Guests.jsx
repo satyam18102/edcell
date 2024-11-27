@@ -2,12 +2,12 @@ import Speaker from "./Speaker"
 const guests=[
     {
         name:'Prashant Hota',
-        image:'/prashant_hota.jpg',
+        image:'/sparkupsummit/images/prashant_hota.jpg',
         position:'President & Group Head Jindal Steel & Power',
     },
     {
         name:'Sandeep Jain',
-        image:'/sandeep_jain.jpg',
+        image:'/sparkupsummit/images/sandeep_jain.jpg',
         position:'Founder & CEO  GeekForGeeks',
     }
 ]
