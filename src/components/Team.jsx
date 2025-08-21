@@ -12,14 +12,14 @@ const teamfaculty = [
 
 const teamstudent = [
     {
-        name: "Girish Bharadwaj",
-        about: "Chairperson",
-        image: "/team/girish2.jpg"
+        name: "Shaswat Tripathi",
+        about: "Secretary",
+        image: "/team/saswatcrop.JPG"
     },
     {
-        name: "Shaswat Tripathi",
-        about: "Secretary | NR",
-        image: "/team/saswatcrop.JPG"
+        name: "Anubhav Poddar",
+        about: "NR",
+        image: "/team/anubhav.png"
     },
     
 
