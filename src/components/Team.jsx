@@ -19,7 +19,7 @@ const teamstudent = [
     {
         name: "Anubhav Poddar",
         about: "NR",
-        image: "/team/anubhav.png"
+        image: "/team/anubhav.jpg"
     },
     
 
