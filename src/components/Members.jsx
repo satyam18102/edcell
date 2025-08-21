@@ -62,14 +62,14 @@ const teamfaculty=[
 
 const teamstudent = [
     {
-        name: "Girish Bharadwaj",
-        about: "Chairperson",
-        image: "/team/girish2.jpg"
+        name: "Shaswat Tripathi",
+        about: "Secretary",
+        image: "/team/saswatcrop.JPG"
     },
     {
-        name: "Shaswat Tripathi",
-        about: "Secretary | NR",
-        image: "/team/saswatcrop.JPG"
+        name: "Anubhav Poddar",
+        about: "NR",
+        image: "/team/anubhav.jpg"
     },
     {
         name: "Shubham Kumar",
@@ -77,60 +77,29 @@ const teamstudent = [
         image: "/team/shubham.jpg"
     },
     {
-        name: "Sailendra Biswal",
-        about: "4th Year",
-        image: "/sparkupsummit/images/members/sailendra.jpg"
-    },
-    {
-        name: "Armaan Biswal",
-        about: "4th Year",
-        image: "/sparkupsummit/images/members/armaan.jpg"
-    },
-    {
-        name: "Prayash Nayak",
-        about: "4th Year",
-        image: "/sparkupsummit/images/members/prayash.JPG"
-    },
-    {
-        name: "Akankhsya",
-        about: "4th Year",
-        image: "/sparkupsummit/images/members/akankhya.jpg"
-    },
-    
-    {
         name: "Anmol Singh",
-        about: "3rd Year",
+        about: "4th Year",
         image: "/team/anmol.JPG"
     },
     {
         name: "Gomesh Agarwall",
-        about: "3rd Year",
+        about: "4th Year",
         image: "/team/gomesh.jpg"
     },
     {
         name: "Piush Praharaj",
-        about: "3rd Year",
+        about: "4th Year",
         image: "/sparkupsummit/images/members/piush2.jpg"
     },
     {
-        name: "Ayush Singh",
-        about: "3rd Year",
-        image: "/team/ayush2.jpg"
-    },
-    {
         name: "Puja Mahato",
-        about: "3rd Year",
+        about: "4th Year",
         image: "/team/puja2.jpg"
     },
     {
         name: "Priyanshi Dubey",
-        about: "3rd Year",
+        about: "4th Year",
         image: "/team/priyanshi2.JPG"
-    },
-    {
-        name: "M. Flora",
-        about: "3rd Year",
-        image: "/team/flora.jpg"
     },
 ]
 
