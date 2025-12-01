@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
+import { Button, Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -104,6 +104,14 @@ const Navbar = () => {
             >
               Gallery
             </Link>
+            <Link
+              to='https://forms.gle/GiovBAoYYzxx5SKx9' target='https://forms.gle/GiovBAoYYzxx5SKx9'
+              onClick='https://forms.gle/GiovBAoYYzxx5SKx9'
+            >
+              <Button onClick={(e)=>{e.preventDefault}} className="text-lg font-medium px-4 py-2 text-white rounded-md hover:scale-105 bg-gradient-to-r from-[#3b82f6] to-[#9333ea] transition-transform duration-200">
+                <span>Join Us</span>
+              </Button>
+            </Link>
           </div>
           <div className="md:hidden md:ml-12">
             <button
@@ -194,6 +202,13 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Gallery
+            </Link>
+            <Link
+              onClick='https://forms.gle/GiovBAoYYzxx5SKx9'
+            >
+              <Button className="text-lg font-medium px-4 py-2 text-white rounded-md hover:scale-105 bg-gradient-to-r from-[#3b82f6] to-[#9333ea] transition-transform duration-200">
+                <span>Join Us</span>
+              </Button>
             </Link>
           </div>
         </div>
