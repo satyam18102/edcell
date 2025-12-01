@@ -204,9 +204,10 @@ const Navbar = () => {
               Gallery
             </Link>
             <Link
+              to='https://forms.gle/GiovBAoYYzxx5SKx9' target='https://forms.gle/GiovBAoYYzxx5SKx9'
               onClick='https://forms.gle/GiovBAoYYzxx5SKx9'
             >
-              <Button className="text-lg font-medium px-4 py-2 text-white rounded-md hover:scale-105 bg-gradient-to-r from-[#3b82f6] to-[#9333ea] transition-transform duration-200">
+              <Button onClick={(e) =>{e.preventDefault()}} className="text-lg font-medium px-4 py-2 text-white rounded-md hover:scale-105 bg-gradient-to-r from-[#3b82f6] to-[#9333ea] transition-transform duration-200">
                 <span>Join Us</span>
               </Button>
             </Link>
